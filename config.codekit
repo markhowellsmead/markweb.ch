@@ -297,6 +297,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Resources\/Public\/Css\/css-reset.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Resources\/Public\/Css\/css-reset.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Resources\/Public\/Fonts\/Overpass\/overpass_light-demo.html": {
 		"fileType": 8192,
 		"ignore": 0,

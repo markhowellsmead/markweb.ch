@@ -1,5 +1,7 @@
 <?php
     
+$version = '0.0.4';
+    
 function gravatar($size){
     return '/gravatar.php?size=' . $size;
 }
@@ -29,8 +31,9 @@ function gravatar($size){
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#444444">
-    <link rel="stylesheet" href="Resources/Public/Fonts/Overpass/stylesheet.css?v0.0.3" />
-    <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css?v0.0.3" />
+    <link rel="stylesheet" href="Resources/Public/Fonts/Overpass/stylesheet.css?v<?=$version?>" />
+    <link rel="stylesheet" href="Resources/Public/Css/css-reset.css?v<?=$version?>" />
+    <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css?v<?=$version?>" />
 </head>
 <body>
 	<main>
