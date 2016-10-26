@@ -22,10 +22,15 @@ function gravatar($size){
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, follow" />
     <title>Mark Howells-Mead, Web developer</title>
-    <link rel="stylesheet" href="Resources/Public/Fonts/Overpass/stylesheet.css?v1" />
-    <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css?v1" />
+    <meta name="theme-color" content="#ffffff">
     <meta name="description" content="I’m a British web developer, designer and photographer living in Switzerland. markweb.ch is a personal website dedicated to internet techologies like WordPress." />
-    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#444444">
+    <link rel="stylesheet" href="Resources/Public/Fonts/Overpass/stylesheet.css?v0.0.3" />
+    <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css?v0.0.3" />
 </head>
 <body>
 	<main>
