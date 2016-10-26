@@ -49,6 +49,6 @@ function gravatar($size){
     		<li class="site"><a class="button button-twitter" href="https://twitter.com/mhmli">@mhmli</a></li>
 		</ul>
 	</main>
-    <footer>No copyright here. Steal and re-use anything at markweb.ch for whatever you like.</footer>
+    <footer>No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
 </body>
 </html>
