@@ -1,6 +1,6 @@
 <?php
 
-$version = '0.0.6.3';
+$version = '0.0.7';
 
 function gravatar($size)
 {
@@ -57,7 +57,7 @@ function gravatar($size)
         <h1>Mark Howells-Mead</h1>
         <p>Website coming Autumn 2016.<br />Visit <a href="https://permanenttourist.ch/">my main website</a> for now.</p>
         <ul class="tags">
-            <li class="tag"><a href="https://permanenttourist.ch/topic/wordpress/">#WordPress</a></li>
+            <li class="tag"><a href="https://permanenttourist.ch/topic/wordpress/" data-postsbytag="WordPress">#WordPress</a></li>
             <li class="tag"><a href="https://permanenttourist.ch/topic/wpbern/">WordPress Bern</a></li>
             <li class="tag"><a href="https://permanenttourist.ch/topic/wcch/">WordCamp Switzerland</a></li>
         </ul>
@@ -66,6 +66,6 @@ function gravatar($size)
         </ul>
     </main>
     <footer>No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
-    <script src="Resources/Public/JavaScript/ui.min.js"></script>
+    <script src="Resources/Public/JavaScript/ui.js"></script>
 </body>
 </html>
