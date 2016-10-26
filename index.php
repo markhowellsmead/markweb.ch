@@ -1,6 +1,6 @@
 <?php
 
-$version = '0.0.5';
+$version = '0.0.6.3';
 
 function gravatar($size)
 {
@@ -20,6 +20,13 @@ function gravatar($size)
 -->
 
 <head>
+    <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/serviceworker.min.js', {
+        scope: '/'
+      });
+    }
+    </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
