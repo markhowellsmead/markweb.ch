@@ -89,24 +89,24 @@ footer {
     padding: 1rem 0;
     
 }
-@media screen and (max-height: 30rem){
+@media screen and (max-height: 30em){
     picture {
         width: 10%;
     }
 }
 
-@media screen and (min-height: 35rem){
+@media screen and (min-height: 35em){
     .tags {
         display: block;
     }
 }
-@media screen and (max-height: 30rem){
+@media screen and (max-height: 30em){
     .tags .tag {
         display: inline-block;
     }
 }
 
-@media screen and (min-width: 40rem){
+@media screen and (min-width: 40em){
     .tags .tag {
         margin: 0 .5rem;
     }
@@ -116,7 +116,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 48rem){
+@media screen and (min-width: 48em){
     .tags .tag {
         display: inline-block;
     }
@@ -128,14 +128,14 @@ footer {
     }
 }
 
-@media screen and (min-width: 90rem){
+@media screen and (min-width: 90em){
     html {
         font-size: 125%;
         letter-spacing: .1rem;
     }
 }
 
-@media screen and (min-width: 100rem) and (min-height: 75rem){
+@media screen and (min-width: 100em) and (min-height: 75em){
     html {
         font-size: 200%;
     }
