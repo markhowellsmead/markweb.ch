@@ -1,11 +1,12 @@
 <?php
-    
-$version = '0.0.4';
-    
-function gravatar($size){
-    return '/gravatar.php?size=' . $size;
+
+$version = '0.0.5';
+
+function gravatar($size)
+{
+    return '/gravatar.php?size='.$size;
 }
-    
+
 ?><!DOCTYPE html>
 <html class="no-js">
 
@@ -13,13 +14,13 @@ function gravatar($size){
 
     No copyright here. Steal and re-use anything at markweb.ch for whatever you like.
     Interested in working with me? Email permanent.tourist@gmail.com.
-    
+
     Mark Howells-Mead | Since October 2016
 
 -->
 
 <head>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, follow" />
@@ -36,8 +37,8 @@ function gravatar($size){
     <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css?v<?=$version?>" />
 </head>
 <body>
-	<main>
-    	<picture>
+    <main>
+        <picture>
             <source media="(min-width: 375px)" srcset="<?=gravatar(125)?>">
             <source media="(min-width: 667px)" srcset="<?=gravatar(167)?>">
             <source media="(min-width: 768px)" srcset="<?=gravatar(192)?>">
@@ -46,17 +47,18 @@ function gravatar($size){
             <source media="(min-width: 1660px)" srcset="<?=gravatar(480)?>">
             <img src="<?=gravatar(60)?>" alt="Mark Howells-Mead" />
         </picture>
-		<h1>Mark Howells-Mead</h1>
-		<p>Website coming Autumn 2016.<br />Visit <a href="https://permanenttourist.ch/">my main website</a> for now.</p>
-		<ul class="tags">
-    		<li class="tag"><a href="https://permanenttourist.ch/topic/wordpress/">#WordPress</a></li>
-    		<li class="tag"><a href="https://permanenttourist.ch/topic/wpbern/">WordPress Bern</a></li>
-    		<li class="tag"><a href="https://permanenttourist.ch/topic/wcch/">WordCamp Switzerland</a></li>
-		</ul>
-		<ul class="social">
-    		<li class="site"><a class="button button-twitter" href="https://twitter.com/mhmli">@mhmli</a></li>
-		</ul>
-	</main>
+        <h1>Mark Howells-Mead</h1>
+        <p>Website coming Autumn 2016.<br />Visit <a href="https://permanenttourist.ch/">my main website</a> for now.</p>
+        <ul class="tags">
+            <li class="tag"><a href="https://permanenttourist.ch/topic/wordpress/">#WordPress</a></li>
+            <li class="tag"><a href="https://permanenttourist.ch/topic/wpbern/">WordPress Bern</a></li>
+            <li class="tag"><a href="https://permanenttourist.ch/topic/wcch/">WordCamp Switzerland</a></li>
+        </ul>
+        <ul class="social">
+            <li class="site"><a class="button button-twitter" href="https://twitter.com/mhmli">@mhmli</a></li>
+        </ul>
+    </main>
     <footer>No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
+    <script src="Resources/Public/JavaScript/ui.min.js"></script>
 </body>
 </html>
