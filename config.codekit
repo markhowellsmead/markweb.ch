@@ -189,6 +189,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/gravatar.256.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17178,
+		"inputAbbreviatedPath": "\/gravatar.256.jpg",
+		"outputAbbreviatedPath": "\/gravatar.256.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/gravatar.512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56337,
+		"inputAbbreviatedPath": "\/gravatar.512.jpg",
+		"outputAbbreviatedPath": "\/gravatar.512.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/gravatar.60.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

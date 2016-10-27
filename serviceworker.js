@@ -10,19 +10,19 @@
 
     // Update 'version' if you need to refresh the cache
     var staticCacheName = 'static';
-    var version = 'v0.0.7';
+    var version = 'v0.0.13';
 
     // Store core files in a cache (including a page to display when offline)
     function updateStaticCache() {
         return caches.open(version + '::' + staticCacheName)
             .then(function (cache) {
                 return cache.addAll([
-                    '/Resources/Public/Css/css-reset.css?v'+version,
-                    '/Resources/Public/Css/comingsoon.css?v'+version,
-                    '/Resources/Public/Fonts/Overpass/stylesheet.css?v'+version,
+                    '/Resources/Public/Css/css-reset.css',
+                    '/Resources/Public/Css/comingsoon.css',
+                    '/Resources/Public/Fonts/Overpass/stylesheet.css',
                     '/Resources/Public/Fonts/Overpass/overpass_light-webfont.woff',
                     '/Resources/Public/Fonts/Overpass/overpass_light-webfont.woff2',
-                    '/Resources/Public/JavaScript/ui.min.js?v'+version,
+                    '/Resources/Public/JavaScript/ui.min.js',
                     '/',
                 ]);
             });

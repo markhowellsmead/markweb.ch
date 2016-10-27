@@ -1,7 +1,5 @@
 <?php
 
-$version = '0.0.7';
-
 function gravatar($size)
 {
     return '/gravatar.php?size='.$size;
@@ -39,9 +37,9 @@ function gravatar($size)
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#444444">
-    <link rel="stylesheet" href="Resources/Public/Fonts/Overpass/stylesheet.css?v<?=$version?>" />
-    <link rel="stylesheet" href="Resources/Public/Css/css-reset.css?v<?=$version?>" />
-    <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css?v<?=$version?>" />
+    <link rel="stylesheet" href="Resources/Public/Fonts/Overpass/stylesheet.css" />
+    <link rel="stylesheet" href="Resources/Public/Css/css-reset.css" />
+    <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css" />
 </head>
 <body>
     <main>
@@ -66,6 +64,6 @@ function gravatar($size)
         </ul>
     </main>
     <footer>No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
-    <script src="Resources/Public/JavaScript/ui.js"></script>
+    <script src="Resources/Public/JavaScript/ui.min.js"></script>
 </body>
 </html>
