@@ -31,6 +31,8 @@ body {
     line-height: 1.5;
     color: #ccc;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -41,17 +43,13 @@ body {
         top: 0;
         left: 0;
         right: 0;
-        height: .5rem;
-        transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: none;
+        transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
         text-align: center;
-    }
-    &.online {
-        &:before {
-            background-color: $green;
-        }
     }
     &.offline {
         &:before {
+            display: block;
             content: 'Your device appears to be offline.';
             color: $white;
             background-color: rgb(150, 0, 0);
@@ -69,7 +67,7 @@ body {
 }
 
 main {
-    width: 100%;
+    flex-basis: 100%;
     text-align: center;
 }
 
@@ -139,23 +137,32 @@ img {
     color: $white;
 }
 
+.hide-for-tiny {
+    display: none;
+    margin-bottom: 1rem;
+    @media screen and (min-height: 35em){
+        display: inline-block;
+    }
+    @media screen and (min-width: 48em) and (min-height: 35em){
+        display: block;
+    }
+}
+
 .social {
     margin: 4vh 0;
 }
 
-.tags {
-    display: none;
+.links {
     margin: 1vh 0;
 }
 
-.tags,
-.social {
+.links {
     list-style-type: none;
     padding: 0;
 }
 
-.tags .tag {
-    padding: .25rem 0;
+.links li {
+    padding: .25rem;
 }
 
 footer {
@@ -173,19 +180,19 @@ footer {
 }
 
 @media screen and (min-height: 35em) {
-    .tags {
+    .links {
         display: block;
     }
 }
 
 @media screen and (max-height: 30em) {
-    .tags .tag {
+    .links li {
         display: inline-block;
     }
 }
 
 @media screen and (min-width: 40em) {
-    .tags .tag {
+    .links li {
         margin: 0 .5rem;
     }
     a {
@@ -216,9 +223,6 @@ footer {
 }
 
 @media screen and (min-width: 48em) {
-    .tags .tag {
-        display: inline-block;
-    }
     h2 {
         font-size: 1rem;
     }
@@ -238,8 +242,7 @@ footer {
     html {
         font-size: 200%;
     }
-    .tags,
-    .social {
+    .links {
         font-size: .75rem;
     }
 }
@@ -271,6 +274,9 @@ footer {
     right: 0;
     bottom: 0;
     z-index: 2;
+    flex-basis: 100%;
+    width: 100%;
+    height: 100%;
     background-color: rgba($black100, .75);
     transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1);
     &.open {
@@ -296,7 +302,10 @@ footer {
 
     transform: translateX(100%);
     transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: none;
+
     &.open {
+        display: block;
         transform: translateX(0);
     }
 
