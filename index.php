@@ -1,6 +1,6 @@
 <?php
 
-$version = 'v0.0.20';
+$version = 'v0.0.21';
 
 function gravatar($size)
 {
@@ -48,11 +48,11 @@ function gravatar($size)
     <title>Mark Howells-Mead, Web developer</title>
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="I’m a British web developer, designer and photographer living in Switzerland. markweb.ch is a personal website dedicated to internet techologies like WordPress." />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?<?=$version?>">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png?<?=$version?>" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png?<?=$version?>" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?<?=$version?>" color="#444444">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Resources/Public/Icons/apple-touch-icon.png?<?=$version?>">
+    <link rel="icon" type="image/png" href="/Resources/Public/Icons/favicon-32x32.png?<?=$version?>" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Resources/Public/Icons/favicon-16x16.png?<?=$version?>" sizes="16x16">
+    <link rel="manifest" href="/Resources/Public/Icons/manifest.json">
+    <link rel="mask-icon" href="/Resources/Public/Icons/safari-pinned-tab.svg?<?=$version?>" color="#444444">
     <link rel="stylesheet" href="Resources/Public/Fonts/Overpass/stylesheet.css?<?=$version?>" />
     <link rel="stylesheet" href="Resources/Public/Css/css-reset.css?<?=$version?>" />
     <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css?<?=$version?>" />
