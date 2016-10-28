@@ -21,13 +21,19 @@ function gravatar($size)
 
 <head>
     <script>
+    /**
+     * Register Service Worker script. (Currently not in use.)
+     */
     // if ('serviceWorker' in navigator) {
     //   navigator.serviceWorker.register('/serviceworker.min.js', {
     //     scope: '/'
     //   });
     // }
 
-
+    /**
+     * De-registers Service Worker for anyone who loaded the site when
+     * it was being used. It is currently not in use.
+     */
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/serviceworker.min.js?<?=$version?>', {
         scope: '/'
