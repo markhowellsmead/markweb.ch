@@ -1,6 +1,6 @@
 <?php
 
-$version = 'v0.0.19';
+$version = 'v0.0.20';
 
 function gravatar($size)
 {
@@ -60,7 +60,7 @@ function gravatar($size)
 <body>
     <main>
 
-        <img class="profile-image" alt="Mark Howells-Mead" srcset="<?=gravatar(125)?> 125w, <?=gravatar(167)?> 167w, <?=gravatar(192)?> 192w, <?=gravatar(256)?> 256w, <?=gravatar(360)?> 360w, <?=gravatar(480)?> 480w">
+        <img class="profile-image" src="<?=gravatar(60)?>" alt="Mark Howells-Mead" srcset="<?=gravatar(125)?> 125w, <?=gravatar(167)?> 167w, <?=gravatar(192)?> 192w, <?=gravatar(256)?> 256w, <?=gravatar(360)?> 360w, <?=gravatar(480)?> 480w">
 
         <h1>Mark Howells-Mead</h1>
         <p>Extended website coming Autumn 2016</p>
