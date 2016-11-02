@@ -1,6 +1,6 @@
 <?php
 
-$version = 'v0.0.25';
+$version = 'v0.0.25.1';
 
 function gravatar($size)
 {
@@ -62,7 +62,8 @@ function gravatar($size)
         </header>
         <section class="what">
             <ul class="listless presentations">
-                <li class="presentation"><a href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Modular functionality – organizing your code to make WordPress development easier</a><span class="presentation-client caption-tiny">(<a href="https://2016.geneva.wordcamp.org/" target="_blank">#WCGVA</a>, November 2016)</span></li>
+                <li class="presentation"><a href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Modular functionality – organizing your code to make WordPress development easier</a><span class="presentation-client caption-tiny">(<a href="https://2016.geneva.wordcamp.org/" target="_blank">#WCGVA</a>, 18<sup>th</sup> November 2016)</span></li>
+                <li class="external-link"><a href="https://wpch.slack.com/">New Slack channel opened for WordPress Switzerland</a><span class="presentation-client caption-tiny">(1<sup>st</sup> November 2016)</span></li>
                 <li class="presentation"><a href="http://slides.com/markweb/responsive-design-de/" target="_blank">Responsive Design - Worauf kommt es an?</a><span class="presentation-client caption-tiny">(<a href="https://wpbern.ch/" target="_blank">WordPress Bern</a>, Oktober 2016)</span></li>
             </ul>
         </section>
