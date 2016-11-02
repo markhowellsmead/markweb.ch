@@ -1,6 +1,6 @@
 <?php
 
-$version = 'v0.0.21';
+$version = 'v0.0.22';
 
 function gravatar($size)
 {
@@ -22,17 +22,8 @@ function gravatar($size)
 <head>
     <script>
     /**
-     * Register Service Worker script. (Currently not in use.)
-     */
-    // if ('serviceWorker' in navigator) {
-    //   navigator.serviceWorker.register('/serviceworker.min.js', {
-    //     scope: '/'
-    //   });
-    // }
-
-    /**
      * De-registers Service Worker for anyone who loaded the site when
-     * it was being used. It is currently not in use.
+     * it was being tested. It is currently not in use.
      */
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/serviceworker.min.js?<?=$version?>', {
@@ -59,28 +50,27 @@ function gravatar($size)
     <link rel="icon" type="image/png" href="/Resources/Public/Icons/favicon-16x16.png?<?=$version?>" sizes="16x16">
     <link rel="manifest" href="/Resources/Public/Icons/manifest.json">
     <link rel="mask-icon" href="/Resources/Public/Icons/safari-pinned-tab.svg?<?=$version?>" color="#444444">
-    <link rel="stylesheet" href="Resources/Public/Fonts/Overpass/stylesheet.css?<?=$version?>" />
     <link rel="stylesheet" href="Resources/Public/Css/css-reset.css?<?=$version?>" />
     <link rel="stylesheet" href="Resources/Public/Css/comingsoon.css?<?=$version?>" />
+    <link rel="stylesheet" href="https://s.w.org/wp-includes/css/dashicons.css?20160504" />
 </head>
 <body>
-    <main>
-
-        <img class="profile-image" src="<?=gravatar(60)?>" alt="Mark Howells-Mead" srcset="<?=gravatar(125)?> 125w, <?=gravatar(167)?> 167w, <?=gravatar(192)?> 192w, <?=gravatar(256)?> 256w, <?=gravatar(360)?> 360w, <?=gravatar(480)?> 480w">
-
-        <h1>Mark Howells-Mead</h1>
-        <p>Extended website coming Autumn 2016</p>
-        <ul class="links tags">
-            <li class="tag"><a href="https://permanenttourist.ch/topic/wordpress/" data-postsbytag="WordPress">#WordPress</a></li>
-<!--             <li class="tag"><a href="https://permanenttourist.ch/topic/wpbern/">WordPress Bern</a></li>
-            <li class="tag"><a href="https://permanenttourist.ch/topic/wcch/">WordCamp Switzerland</a></li>
- -->        </ul>
-        <ul class="links presentations">
-            <li class="presentation"><a href="http://slides.com/markweb/responsive-design-de/" target="_blank">Responsive Design - Worauf kommt es an?</a><span class="hide-for-tiny">For <a href="https://wpbern.ch/" target="_blank">WordPress Bern</a>, October 2016</span></li>
-        </ul>
-        <ul class="links social">
-            <li class="site"><a class="button button-twitter" href="https://twitter.com/mhmli">@mhmli</a></li>
-        </ul>
+    <main class="main">
+        <header class="who">
+            <img class="profile-image" src="<?=gravatar(60)?>" alt="Mark Howells-Mead" srcset="<?=gravatar(125)?> 125w, <?=gravatar(167)?> 167w, <?=gravatar(192)?> 192w, <?=gravatar(256)?> 256w, <?=gravatar(360)?> 360w, <?=gravatar(480)?> 480w">
+            <h1>Mark Howells-Mead</h1>
+        </header>
+        <section class="what">
+            <ul class="listless presentations">
+                <li class="presentation"><a href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Modular functionality – organizing your code to make WordPress development easier</a><span class="presentation-client caption-tiny hide-for-tiny">(<a href="https://2016.geneva.wordcamp.org/" target="_blank">#WCGVA</a>, November 2016)</span></li>
+                <li class="presentation"><a href="http://slides.com/markweb/responsive-design-de/" target="_blank">Responsive Design - Worauf kommt es an?</a><span class="presentation-client caption-tiny hide-for-tiny">(<a href="https://wpbern.ch/" target="_blank">WordPress Bern</a>, Oktober 2016)</span></li>
+            </ul>
+        </section>
+        <section class="where">
+            <ul class="links social">
+                <li class="sites"><a class="button button-wordpress" href="https://profiles.wordpress.org/markhowellsmead">WordPress</a> <a class="button button-twitter" href="https://twitter.com/mhmli">Twitter</a> <a class="button button-facebook" href="https://www.facebook.com/mhowellsmead">Facebook</a> <a class="button button-slack" href="https://wpch.slack.com/">Slack</a></li>
+            </ul>
+        </section>
     </main>
     <footer>No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
     <script src="Resources/Public/JavaScript/ui.min.js"></script>

@@ -7,8 +7,14 @@
 		"uuidString": "A137DF61-20CF-4D3C-A9A5-614C0B03828A"
 		}
 	],
-"creatorBuild": "25378",
+"creatorBuild": "25390",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -21,11 +27,29 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
-	"\/favicons.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicons.zip",
-		"oF": 0
+	"\/gravatar.256.jpg": {
+		"ft": 16384,
+		"iS": 17178,
+		"oA": 0,
+		"oAP": "\/gravatar.256.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/gravatar.360.jpg": {
+		"ft": 16384,
+		"iS": 31006,
+		"oA": 0,
+		"oAP": "\/gravatar.360.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/gravatar.480.jpg": {
+		"ft": 16384,
+		"iS": 50466,
+		"oA": 0,
+		"oAP": "\/gravatar.480.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/gravatar.php": {
 		"ft": 8192,
@@ -53,12 +77,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/overpass.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/overpass.zip",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -76,6 +94,31 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/Resources\/Private\/Scss\/.sass-cache\/29e6bc726865f090092cb94be61780ca9c0cae43\/comingsoon.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Resources\/Private\/Scss\/.sass-cache\/29e6bc726865f090092cb94be61780ca9c0cae43\/comingsoon.scssc",
+		"oF": 0
+		},
+	"\/Resources\/Private\/Scss\/.sass-cache\/ad8f603ef7ab09941f4ab3b0e900df9f6b6ca8b6\/comingsoon.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Resources\/Private\/Scss\/.sass-cache\/ad8f603ef7ab09941f4ab3b0e900df9f6b6ca8b6\/comingsoon.scssc",
+		"oF": 0
+		},
+	"\/Resources\/Private\/Scss\/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/Resources\/Public\/Css\/_vars.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/Resources\/Private\/Scss\/comingsoon.scss": {
 		"aP": 1,
@@ -107,6 +150,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/Resources\/Public\/Css\/css-reset-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/Resources\/Public\/Css\/vars.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/Resources\/Public\/Css\/vars-ck.css",
 		"oF": 0,
 		"oS": 0
 		},

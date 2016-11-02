@@ -107,37 +107,37 @@
 
     handleOnlineStatus();
 
-    if (isonline) {
-        loadScript("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", function() {
+    // if (isonline) {
+    //     loadScript("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", function() {
 
-            page_overlay = $('<div class="page-overlay"></div>');
-            $('body').append(page_overlay);
+    //         page_overlay = $('<div class="page-overlay"></div>');
+    //         $('body').append(page_overlay);
 
-            $('[data-postsbytag]').on('click.loadme', function(e) {
+    //         $('[data-postsbytag]').on('click.loadme', function(e) {
 
-                e.preventDefault();
-                var tag = $(this).data('postsbytag');
+    //             e.preventDefault();
+    //             var tag = $(this).data('postsbytag');
 
-                var data = localData(tag);
-                if (data) {
-                    renderData(data, tag);
-                }
-                else {
-                    $.ajax({
-                        url: jsonAPI,
-                        type: 'jsonp',
-                        method: 'get',
-                        data: {
-                            filter: {
-                                tag: tag
-                            }
-                        },
-                        success: function(data) {
-                            renderData(data, tag);
-                        }
-                    });
-                }
-            });
-        });
-    }
+    //             var data = localData(tag);
+    //             if (data) {
+    //                 renderData(data, tag);
+    //             }
+    //             else {
+    //                 $.ajax({
+    //                     url: jsonAPI,
+    //                     type: 'jsonp',
+    //                     method: 'get',
+    //                     data: {
+    //                         filter: {
+    //                             tag: tag
+    //                         }
+    //                     },
+    //                     success: function(data) {
+    //                         renderData(data, tag);
+    //                     }
+    //                 });
+    //             }
+    //         });
+    //     });
+    // }
 })();
