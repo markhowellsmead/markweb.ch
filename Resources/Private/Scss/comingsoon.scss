@@ -33,6 +33,7 @@ $black100:  #1E1E1E;
         font-weight: normal;
         display: inline-block;
         font-size: 24px;
+        -webkit-font-smoothing: antialiased;
         content: '';
         margin-right: .25rem;
     }

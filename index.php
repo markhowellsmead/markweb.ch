@@ -1,6 +1,6 @@
 <?php
 
-$version = 'v0.0.23';
+$version = 'v0.0.25';
 
 function gravatar($size)
 {
