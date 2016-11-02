@@ -4,6 +4,7 @@ $font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans
 $white: #f0f0f0;
 
 $green: rgb(124, 150, 0);
+$green_dark: darken($green, 10%);
 
 $slack: rgb(100,74,97);
 $wordpress: #0087be;
@@ -114,6 +115,7 @@ main {
 }
 
 .caption-tiny {
+    display: block;
     font-size: small;
     font-style: italic;
 }
@@ -153,13 +155,16 @@ a {
         color: $white;
     }
     &:not(.button){
-        color: $green;
+        color: $green_dark;
         background-image: -webkit-linear-gradient(top, transparent 50%, $green 50%);
         background-image: linear-gradient(to bottom, transparent 50%, $green 50%);
         background-repeat: repeat-x;
         background-size: .0625rem 0.125rem;
         background-position: 0 1.05em;
         text-shadow: 0 .0625rem .0625rem #fff;
+        @media screen and (min-width: 48em){
+            color: $green;
+        }
     }
 }
 
