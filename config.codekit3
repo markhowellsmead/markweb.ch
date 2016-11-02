@@ -27,13 +27,21 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/gravatar.125.jpg": {
+		"ft": 16384,
+		"iS": 5829,
+		"oA": 0,
+		"oAP": "\/gravatar.125.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/gravatar.256.jpg": {
 		"ft": 16384,
 		"iS": 17178,
 		"oA": 0,
 		"oAP": "\/gravatar.256.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/gravatar.360.jpg": {
 		"ft": 16384,
@@ -41,13 +49,29 @@
 		"oA": 0,
 		"oAP": "\/gravatar.360.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/gravatar.480.jpg": {
 		"ft": 16384,
 		"iS": 50466,
 		"oA": 0,
 		"oAP": "\/gravatar.480.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/gravatar.512.jpg": {
+		"ft": 16384,
+		"iS": 56337,
+		"oA": 0,
+		"oAP": "\/gravatar.512.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/gravatar.60.jpg": {
+		"ft": 16384,
+		"iS": 2379,
+		"oA": 0,
+		"oAP": "\/gravatar.60.jpg",
 		"oF": 0,
 		"opt": 0
 		},
