@@ -87,6 +87,12 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/layout.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layout.php",
+		"oF": 0
+		},
 	"\/LICENSE": {
 		"ft": 8192,
 		"oA": 2,
@@ -131,7 +137,7 @@
 		"oAP": "\/Resources\/Private\/Scss\/.sass-cache\/ad8f603ef7ab09941f4ab3b0e900df9f6b6ca8b6\/comingsoon.scssc",
 		"oF": 0
 		},
-	"\/Resources\/Private\/Scss\/_vars.scss": {
+	"\/Resources\/Private\/Scss\/_config.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -139,7 +145,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/Resources\/Public\/Css\/_vars.css",
+		"oAP": "\/Resources\/Public\/Css\/_config.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/Resources\/Private\/Scss\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/Resources\/Public\/Css\/_typography.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -153,6 +172,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/Resources\/Public\/Css\/comingsoon.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/Resources\/Private\/Scss\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Resources\/Public\/Css\/style.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -174,6 +206,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/Resources\/Public\/Css\/css-reset-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/Resources\/Public\/Css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/Resources\/Public\/Css\/style-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -761,7 +803,7 @@
 		},
 	"babelPresetType": 193,
 	"babelRetainLines": 0,
-	"bowerAbbreviatedPath": "bower_components",
+	"bowerAbbreviatedPath": "vendor\/bower_components",
 	"bowerAutoCreateInfoFile": 1,
 	"bowerInstallDevDependencies": 0,
 	"bowerSaveDependencies": 1,

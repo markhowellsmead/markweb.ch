@@ -1,0 +1,53 @@
+html {
+    letter-spacing: .5px;
+    @media screen and (min-resolution: 2dppx) {
+        -webkit-font-smoothing: antialiased;
+    }
+    // @media screen and (min-width: 80em) and (min-height: 50em) {
+    //    font-size: 106.25%;
+    // }
+}
+
+html,
+body {
+    font-family: $font;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $body-colour;
+}
+
+a {
+    text-decoration: none;
+    color: $link-colour;
+    border-bottom: 1px solid $link-underline;
+    &.button {
+        color: $white;
+        border: none;
+    }
+}
+
+h1, h2,  h3, h4, h5, h6 {
+    color: $title-colour;
+    font-weight: $title-weight;
+    -webkit-font-smoothing: antialiased;
+    a {
+        color: inherit;
+        border: none;
+    }
+}
+
+ul.inline {
+    list-style-type: none;
+    li {
+        display: inline;
+    }
+}
+
+.mod.aside {
+    font-size: .825rem;
+}
+
+.page-title, .page-subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+}
