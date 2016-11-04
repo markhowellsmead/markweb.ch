@@ -18,45 +18,56 @@ body {
 }
 
 .container {
+    max-width: 90rem;
     padding: 0 1rem;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     flex: 1;
-    > :last-child {
-        margin-top: auto;
-    }
 }
 
-.content {
-    @media screen and (min-width: 768px){
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-.page-footer {
-    padding: 2vh 0;
-}
-
-.mod.aside {
-    @media screen and (min-width: 768px){
-        flex-basis: 25%;
-    }
-}
-
-.mod.main {
-    @media screen and (min-width: 768px){
-        flex-basis: 75%;
-        padding-right: 2vw;
-    }
+.mod.page-content {
+    padding-top: 14vh;
 }
 
 .mod.page-header {
-    align-self: flex-end;
-    flex-basis: 25%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .profile-image {
+        align-self: center;
+        width: 10vw;
+        max-width: 10rem;
+        margin: 0 2vw 0 0;
+        border-radius: 50%;
+        background-color: $green100;
+        box-shadow: $box-shadow1;
+    }
+
+    @media screen and (min-width: 42rem){
+        margin-top: 14vh;
+        padding-top: -14vh;
+        flex-basis: 40%;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-right: 5vw;
+        text-align: right;
+        .profile-image {
+            margin-top: -14vh;
+        }
+    }
 }
 
+.mod.page-footer {
+    flex: 0 0 100%;
+    padding: 2vh 0 2vh 40%;
+    margin-top: auto;
+    margin-bottom: 0;
+}
 
-.nav.main {
-    flex-basis: 100%;
+.nav {
+    margin: 1rem 0;
+    &.social .is-icon {
+        margin: 0 .2rem .2rem;
+    }
 }

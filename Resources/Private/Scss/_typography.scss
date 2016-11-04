@@ -20,6 +20,9 @@ a {
     text-decoration: none;
     color: $link-colour;
     border-bottom: 1px solid $link-underline;
+    &:visited {
+        color: $link-colour-read;
+    }
     &.button {
         color: $white;
         border: none;
@@ -43,11 +46,56 @@ ul.inline {
     }
 }
 
+.is-icon {
+    display: inline-block;
+    font-size: 0;
+    text-indent: -800rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    background: $black10 center/75% auto no-repeat;
+    border: none;
+    border-radius: .2rem;
+    &.envelope {
+        background-color: $green100;
+        background-image: url('../Icons/FA/envelope.svg');
+    }
+    &.facebook {
+        background-color: $facebook;
+        background-image: url('../Icons/FA/facebook.svg');
+    }
+    &.slack {
+        background-color: $slack;
+        background-image: url('../Icons/FA/slack.svg');
+    }
+    &.twitter {
+        background-color: $twitter;
+        background-image: url('../Icons/FA/twitter.svg');
+    }
+    &.wordpress {
+        background-color: $wordpress;
+        background-image: url('../Icons/FA/wordpress.svg');
+    }
+}
+
 .mod.aside {
     font-size: .825rem;
 }
 
-.page-title, .page-subtitle {
-    font-size: 1rem;
+.mod.page-footer {
+    font-size: .75rem;
+}
+
+.page-title {
+    font-size: 1.2em;
     font-weight: 600;
+}
+
+.page-subtitle {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.profile-content {
+    font-size: .75rem;
 }

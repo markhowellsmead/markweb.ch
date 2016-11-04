@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mark Howells-Mead</title>
     <link rel="stylesheet" href="Resources/Public/Css/css-reset.css">
     <link rel="stylesheet" href="Resources/Public/Css/style.css">
@@ -11,27 +12,23 @@
 <div class="container">
 
 <header class="mod page-header">
-    <h1 class="page-title">Mark Howells-Mead</h1>
-    <h2 class="page-subtitle">Web developer and photographer</h2>
-    <nav class="nav main">
-        <ul class="inline">
-            <li class="menu-item">
-                <a href="https://profiles.wordpress.org/markhowellsmead" class="is-icon wordpress">WordPress</a>
-            </li>
-            <li class="menu-item">
-                <a href="https://twitter.com/mhmli" class="is-icon twitter">Twitter</a>
-            </li>
-            <li class="menu-item">
-                <a href="https://www.facebook.com/mhowellsmead" class="is-icon facebook">Facebook</a>
-            </li>
-            <li class="menu-item">
-                <a href="https://wpch.slack.com/" class="is-icon slack">Slack</a>
-            </li>
-        </ul>
-    </nav>
+    <img class="profile-image" src="/gravatar.php?size=60" alt="Mark Howells-Mead" srcset="/gravatar.php?size=125 125w, /gravatar.php?size=167 167w, /gravatar.php?size=192 192w, /gravatar.php?size=256 256w, /gravatar.php?size=360 360w, /gravatar.php?size=480 480w" />
+    <div class="profile-content">
+        <h1 class="page-title">Mark Howells-Mead</h1>
+        <h2 class="page-subtitle">Web developer and photographer</h2>
+        <nav class="nav social">
+            <ul class="inline">
+                <li class="menu-item"><a href="mailto:hi@markweb.ch" class="is-icon envelope">Get in touch</a></li>
+                <li class="menu-item"><a href="https://profiles.wordpress.org/markhowellsmead" class="is-icon wordpress">WordPress</a></li>
+                <li class="menu-item"><a href="https://twitter.com/mhmli" class="is-icon twitter">Twitter</a></li>
+                <li class="menu-item"><a href="https://www.facebook.com/mhowellsmead" class="is-icon facebook">Facebook</a></li>
+                <li class="menu-item"><a href="https://wpch.slack.com/" class="is-icon slack">Slack</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
-<section class="content">
+<section class="mod page-content">
     <main class="mod main">
 
         <article class="post">
@@ -98,7 +95,7 @@
     </aside>
 </section>
 
-<footer class="page-footer">No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
+<footer class="mod page-footer">No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
 
 </div>
 

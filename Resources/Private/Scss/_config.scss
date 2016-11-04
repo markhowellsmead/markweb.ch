@@ -33,8 +33,12 @@ $green30: #252d00;
 $green20: #181e00;
 $green10: #0c0f00;
 
+$facebook: rgb(59, 89, 152);
 $slack: rgb(100,74,97);
+$twitter: #1da1f2;
 $wordpress: #0087be;
+
+$box-shadow1: 0 0 4px rgba($black100, .25);
 
 $body-colour: $black80;
 
@@ -43,6 +47,7 @@ $title-weight: 300;
 
 $link-colour: $green90;
 $link-underline: lighten(desaturate($link-colour, 50%), 50%);
+$link-colour-read: $green90;
 
 @mixin icon() {
     vertical-align: middle;

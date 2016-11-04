@@ -7,7 +7,7 @@
 		"uuidString": "A137DF61-20CF-4D3C-A9A5-614C0B03828A"
 		}
 	],
-"creatorBuild": "25390",
+"creatorBuild": "25428",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -413,6 +413,66 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/Resources\/Public\/Icons\/FA\/envelope.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Resources\/Public\/Icons\/FA\/envelope.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Resources\/Public\/Icons\/FA\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Resources\/Public\/Icons\/FA\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Resources\/Public\/Icons\/FA\/slack.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Resources\/Public\/Icons\/FA\/slack.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Resources\/Public\/Icons\/FA\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Resources\/Public\/Icons\/FA\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Resources\/Public\/Icons\/FA\/whatsapp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Resources\/Public\/Icons\/FA\/whatsapp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/Resources\/Public\/Icons\/FA\/wordpress.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Resources\/Public\/Icons\/FA\/wordpress.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/Resources\/Public\/Icons\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1359,
@@ -575,6 +635,9 @@
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
 		"async-to-generator": {
 			"active": 0
 			},
@@ -1663,6 +1726,10 @@
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-var": {
 			"active": 0,
 			"optionString": ""
@@ -1730,10 +1797,6 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
-			},
-		"prefer-reflect": {
-			"active": 0,
-			"optionString": "{'exceptions': []}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
