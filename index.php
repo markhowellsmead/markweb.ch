@@ -1,6 +1,6 @@
 <?php
 
-$version = 'v0.0.25.1';
+$version = 'v0.0.28';
 
 function gravatar($size)
 {
@@ -61,10 +61,11 @@ function gravatar($size)
             <h1>Mark Howells-Mead</h1>
         </header>
         <section class="what">
-            <ul class="listless presentations">
-                <li class="presentation"><a href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Modular functionality – organizing your code to make WordPress development easier</a><span class="presentation-client caption-tiny">(<a href="https://2016.geneva.wordcamp.org/" target="_blank">#WCGVA</a>, 18<sup>th</sup> November 2016)</span></li>
-                <li class="external-link"><a href="https://wpch.slack.com/">New Slack channel opened for WordPress Switzerland</a><span class="presentation-client caption-tiny">(1<sup>st</sup> November 2016)</span></li>
-                <li class="presentation"><a href="http://slides.com/markweb/responsive-design-de/" target="_blank">Responsive Design - Worauf kommt es an?</a><span class="presentation-client caption-tiny">(<a href="https://wpbern.ch/" target="_blank">WordPress Bern</a>, Oktober 2016)</span></li>
+            <ul class="listless entries">
+                <li class="entry"><a href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Modular functionality – organizing your code to make WordPress development easier</a><span class="entry-client caption-tiny">(<a href="https://2016.geneva.wordcamp.org/" target="_blank">#WCGVA</a>, 18<sup>th</sup> November 2016)</span></li>
+                <li class="entry blogpost"><a href="https://permanenttourist.ch/2016/11/tailoring-your-web-design-process-to-site-visitors-needs/">Tailoring your web design process to site visitors' needs</a><span class="entry-blog caption-tiny">(3<sup>rd</sup> November 2016)</span></li>
+                <li class="entry blogpost external-link"><a href="https://permanenttourist.ch/2016/11/new-slack-channel-opened-for-wordpress-switzerland/">New Slack channel opened for WordPress Switzerland</a><span class="entry-client caption-tiny">(1<sup>st</sup> November 2016)</span></li>
+                <li class="entry"><a href="http://slides.com/markweb/responsive-design-de/" target="_blank">Responsive Design - Worauf kommt es an?</a><span class="entry-client caption-tiny">(<a href="https://wpbern.ch/" target="_blank">WordPress Bern</a>, Oktober 2016)</span></li>
             </ul>
         </section>
         <section class="where">
