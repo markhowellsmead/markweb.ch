@@ -49,9 +49,7 @@ $body-colour: $black80;
 $title-colour: $black100;
 $title-weight: 300;
 
-$link-colour: $green90;
-$link-underline: lighten(desaturate($link-colour, 50%), 50%);
-$link-colour-read: $green90;
+$link-underline: lighten(desaturate($anchor-color, 50%), 50%);
 
 @mixin icon() {
     vertical-align: middle;

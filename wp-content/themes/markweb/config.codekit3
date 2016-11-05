@@ -3770,11 +3770,29 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/Resources\/Public\/JavaScript\/foundation.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Resources\/Public\/JavaScript\/foundation.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/Resources\/Public\/JavaScript\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Resources\/Public\/JavaScript\/jquery.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/Resources\/Public\/JavaScript\/ui.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/Resources\/Public\/JavaScript\/min\/ui-min.js",
+		"oAP": "\/Resources\/Public\/JavaScript\/ui.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3783,7 +3801,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/Resources\/Public\/JavaScript\/min\/ui.min-min.js",
+		"oAP": "\/Resources\/Public\/JavaScript\/ui.min.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -5516,11 +5534,11 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.min.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
