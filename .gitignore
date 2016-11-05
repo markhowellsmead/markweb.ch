@@ -1,4 +1,4 @@
 *.scssc
 gravatar.*.jpg
 .DS_Store
-/bower_components
+bower_components

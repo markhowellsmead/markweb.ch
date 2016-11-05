@@ -33,10 +33,13 @@ body {
 
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
+    align-items: flex-start;
+
+    padding: .5rem 0;
 
     .profile-image {
-        align-self: center;
-        width: 10vw;
+        width: 15vw;
         max-width: 10rem;
         margin: 0 2vw 0 0;
         border-radius: 50%;

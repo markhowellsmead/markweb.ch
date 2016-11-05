@@ -1,0 +1,21 @@
+{
+  "name": "markweb",
+  "version": "0.0.1",
+  "authors": [
+    "ZURB <foundation@zurb.com>"
+  ],
+  "description": "WordPress theme for markweb.ch",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.2.3",
+    "motion-ui": "~1.2.2"
+  },
+  "private": true
+}

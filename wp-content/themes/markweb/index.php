@@ -17,7 +17,8 @@
         <h1 class="page-title">Mark Howells-Mead</h1>
         <h2 class="page-subtitle">Web developer and photographer</h2>
         <nav class="nav social">
-            <ul class="inline">
+        <a class="is-icon burger show-for-small" data-toggle=".nav.social .inline"></a>
+            <ul class="inline hide-for-small">
                 <li class="menu-item"><a href="mailto:hi@markweb.ch" class="is-icon envelope">Get in touch</a></li>
                 <li class="menu-item"><a href="https://profiles.wordpress.org/markhowellsmead" class="is-icon wordpress">WordPress</a></li>
                 <li class="menu-item"><a href="https://twitter.com/mhmli" class="is-icon twitter">Twitter</a></li>
