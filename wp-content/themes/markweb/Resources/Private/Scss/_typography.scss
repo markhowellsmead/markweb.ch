@@ -8,14 +8,6 @@ html {
     // }
 }
 
-html,
-body {
-    font-family: $font;
-    font-weight: 300;
-    line-height: 1.5;
-    color: $body-colour;
-}
-
 a {
     text-decoration: none;
     color: $link-colour;

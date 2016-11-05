@@ -1,9 +1,4 @@
-$font-overpasslight: overpasslight, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-$font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-
-$font: $font-system;
-
-$white: #f0f0f0;
+$white: #fefefe;
 
 $red100:    #EB0000;
 $red125:    #C60018;
@@ -22,6 +17,8 @@ $black90:   #444444;
 $black95:   #262626;
 $black100:  #1E1E1E;
 
+$black: $black100;
+
 $green100: #7c9600;
 $green90: #6f8700;
 $green80: #637800;
@@ -37,6 +34,13 @@ $facebook: rgb(59, 89, 152);
 $slack: rgb(100,74,97);
 $twitter: #1da1f2;
 $wordpress: #0087be;
+
+// Foundation
+
+@import 'settings';
+@import "../bower_components/foundation-sites/scss/foundation";
+
+
 
 $box-shadow1: 0 0 4px rgba($black100, .25);
 
