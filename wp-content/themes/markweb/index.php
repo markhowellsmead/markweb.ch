@@ -1,10 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
+
+<!--
+
+    No copyright here. Steal and re-use anything at markweb.ch for whatever you like.
+    Interested in working with me? Email permanent.tourist@gmail.com.
+
+    Mark Howells-Mead | Since October 2016
+
+-->
+
 <head>
-    <meta charset="utf-8">
+    <script>
+    /**
+     * De-registers Service Worker for anyone who loaded the site when
+     * it was being tested. It is currently not in use.
+     */
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/serviceworker.min.js?<?=$version?>', {
+        scope: '/'
+      }).then(function(registration) {
+        registration.unregister().then(function(boolean) {
+          console && console.log('serviceworker.min.js unregistered');
+        });
+      }).catch(function(error) {
+        // registration failed
+        console && console.log('serviceworker.min.js: registration failed with ' + error);
+      });
+    };
+    </script>
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mark Howells-Mead</title>
+    <meta name="robots" content="noindex, follow" />
+    <title>Mark Howells-Mead, Web developer</title>
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="I’m a British web developer, designer and photographer living in Switzerland. markweb.ch is a personal website dedicated to internet techologies like WordPress." />
+    <link rel="apple-touch-icon" sizes="180x180" href="/Resources/Public/Icons/apple-touch-icon.png?<?=$version?>">
+    <link rel="icon" type="image/png" href="/Resources/Public/Icons/favicon-32x32.png?<?=$version?>" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Resources/Public/Icons/favicon-16x16.png?<?=$version?>" sizes="16x16">
+    <link rel="manifest" href="/Resources/Public/Icons/manifest.json">
+    <link rel="mask-icon" href="/Resources/Public/Icons/safari-pinned-tab.svg?<?=$version?>" color="#444444">
+    <link rel="stylesheet" href="/Resources/Public/Css/css-reset.css?<?=$version?>" />
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/css-reset.css">
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css">
 
