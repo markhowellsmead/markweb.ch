@@ -51,6 +51,7 @@ $global-lineheight: 1.5;
 $foundation-palette: (
   primary: $green100,
   secondary: $black60,
+  tertiary: $black10,
   success: #3adb76,
   warning: #ffae00,
   alert: #ec5840,
@@ -75,11 +76,17 @@ $print-transparent-backgrounds: true;
 
 $breakpoints: (
   small: 0,
+  smartphone_wide: 667px,
+  lessthanmedium: 767px,
   medium: 768px,
   large: 1024px,
   xlarge: 1280px,
   xxlarge: 1440px,
   xxxlarge: 1600px,
+);
+
+$breakpoint-heights: (
+  smartphone_wide_height: 480px
 );
 //$breakpoint-classes: (small medium large);
 
@@ -89,8 +96,8 @@ $breakpoints: (
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: 20px,
-  medium: 30px,
+  small: 1rem,
+  medium: 2rem,
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
@@ -99,32 +106,32 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: $global-weight-bold;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 24,
-    'h2': 21,
-    'h3': 20,
-    'h4': 18,
+    'h1': 16,
+    'h2': 16,
+    'h3': 16,
+    'h4': 16,
     'h5': 16,
     'h6': 16,
   ),
   medium: (
-    'h1': 24,
-    'h2': 21,
-    'h3': 20,
-    'h4': 18,
+    'h1': 16,
+    'h2': 16,
+    'h3': 16,
+    'h4': 16,
     'h5': 16,
     'h6': 16,
   ),
 );
 $header-color: inherit;
 $header-lineheight: 1.4;
-$header-margin-bottom: 0.5rem;
+$header-margin-bottom: 0;
 $header-text-rendering: optimizeLegibility;
-$small-font-size: 80%;
+$small-font-size: .75rem;
 $header-small-font-color: $black30;
 $paragraph-lineheight: 1.6;
 $paragraph-margin-bottom: 1rem;
@@ -140,7 +147,7 @@ $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
-$hr-border: 1px solid $black30;
+$hr-border: 1px dotted $black30;
 $hr-margin: rem-calc(20) auto;
 $list-lineheight: $paragraph-lineheight;
 $list-margin-bottom: $paragraph-margin-bottom;
@@ -347,7 +354,7 @@ $input-background-disabled: $black10;
 $input-border: 1px solid $black30;
 $input-border-focus: 1px solid $black50;
 $input-shadow: inset 0 1px 2px rgba($black100, 0.1);
-$input-shadow-focus: 0 0 5px $black30;
+$input-shadow-focus: 0 0 $shadow-size $black30;
 $input-cursor-disabled: default;
 $input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
 $input-number-spinners: true;
@@ -400,7 +407,7 @@ $offcanvas-transition-timing: ease;
 $offcanvas-fixed-reveal: true;
 $offcanvas-exit-background: rgba($white, 0.25);
 $maincontent-class: 'off-canvas-content';
-$maincontent-shadow: 0 0 10px rgba($black100, 0.5);
+$maincontent-shadow: 0 0 $shadow-size rgba($black100, 0.25);
 
 // 25. Orbit
 // ---------

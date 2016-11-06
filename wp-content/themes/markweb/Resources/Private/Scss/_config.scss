@@ -35,12 +35,14 @@ $slack: rgb(100,74,97);
 $twitter: #1da1f2;
 $wordpress: #0087be;
 
+$shadow-size: .2rem;
+$toolbar-height: 5rem;
+$outer-gutter-x: 1rem;
+
 // Foundation
 
 @import 'settings';
 @import "../bower_components/foundation-sites/scss/foundation";
-
-
 
 $box-shadow1: 0 0 4px rgba($black100, .25);
 
@@ -50,6 +52,12 @@ $title-colour: $black100;
 $title-weight: 300;
 
 $link-underline: lighten(desaturate($anchor-color, 50%), 50%);
+
+@mixin flex-centered() {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 @mixin icon() {
     vertical-align: middle;

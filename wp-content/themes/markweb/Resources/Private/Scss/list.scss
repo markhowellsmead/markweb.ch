@@ -1,0 +1,29 @@
+@import 'config';
+
+.list {
+
+    .posts {
+        .post {
+            margin: 0 0 2rem;
+            border-bottom: $hr-border;
+            > * {
+                margin-left: $outer-gutter-x;
+                margin-right: $outer-gutter-x;
+                @include breakpoint(smartphone_wide){
+                    margin-left: $outer-gutter-x*4;
+                    margin-right: $outer-gutter-x*4;
+                }
+                @include breakpoint(medium){
+                    margin-left: 0;
+                    margin-right: $outer-gutter-x;
+                }
+            }
+        }
+        .wider {
+            margin: 0;
+            background: yellow;
+        }
+    }
+
+
+}

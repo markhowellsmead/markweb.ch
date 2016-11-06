@@ -19,35 +19,65 @@ h1, h2,  h3, h4, h5, h6 {
     }
 }
 
+ul.inline {
+    list-style-type: none;
+    margin: 0;
+    li {
+        display: inline;
+    }
+}
+
 .is-icon {
     display: inline-block;
     font-size: 0;
     text-indent: -800rem;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     vertical-align: middle;
-    background: $black10 center/75% auto no-repeat;
+    background: rgba($green70, .5) center/75% auto no-repeat;
     border: none;
     border-radius: $global-radius;
+    margin: .2rem;
+    &.burger {
+        @include css-button-menu(
+            $css-button-menu-colour: map-get($foundation-palette, primary),
+            $css-button-menu-speed: 150ms
+        );
+        background: none;
+    }
     &.envelope {
-        background-color: $green100;
         background-image: url('../Icons/FA/envelope.svg');
+        &:hover {
+            background-color: $green80;
+        }
     }
     &.facebook {
-        background-color: $facebook;
         background-image: url('../Icons/FA/facebook.svg');
+        &:hover {
+            background-color: $facebook;
+        }
     }
     &.slack {
-        background-color: $slack;
         background-image: url('../Icons/FA/slack.svg');
+        &:hover {
+            background-color: $slack;
+        }
     }
     &.twitter {
-        background-color: $twitter;
         background-image: url('../Icons/FA/twitter.svg');
+        &:hover {
+            background-color: $twitter;
+        }
     }
     &.wordpress {
-        background-color: $wordpress;
         background-image: url('../Icons/FA/wordpress.svg');
+        &:hover {
+            background-color: $wordpress;
+        }
+    }
+    @include breakpoint(medium only){
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
 
@@ -61,4 +91,32 @@ h1, h2,  h3, h4, h5, h6 {
 
 .profile-content {
     font-size: .75rem;
+}
+
+.page-title {
+    font-size: 1rem;
+    font-weight: $global-weight-bold;
+    margin: 0;
+}
+.page-subtitle {
+    font-size: .75rem;
+    margin: 0;
+}
+
+.section-title {
+    font-weight: $global-weight-bold;
+}
+
+.post-date {
+    display: block;
+    font-size: $small-font-size;
+    margin: 0;
+}
+
+.post-footer {
+    font-size: $small-font-size;
+}
+
+.post-header {
+    margin-bottom: 1rem;
 }
