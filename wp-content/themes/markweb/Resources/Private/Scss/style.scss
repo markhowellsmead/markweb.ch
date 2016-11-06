@@ -236,5 +236,8 @@ html.burger-open {
             padding: 1rem 0;
             align-items: flex-end;
         }
+        @include breakpoint(xlarge){
+            padding-bottom: 4vh;
+        }
     }
 }
