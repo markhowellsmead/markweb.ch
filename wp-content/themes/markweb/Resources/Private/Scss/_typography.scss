@@ -2,6 +2,20 @@ html {
     @media screen and (min-resolution: 2dppx) {
         -webkit-font-smoothing: antialiased;
     }
+
+    @each $breakpoint, $size in $body-sizes {
+        @include breakpoint($breakpoint) {
+            font-size: $size;
+        }
+    }
+}
+
+body {
+    @each $breakpoint, $weight in $body-weights {
+        @include breakpoint($breakpoint) {
+            font-weight: $weight;
+        }
+    }
 }
 
 a {
@@ -11,11 +25,26 @@ a {
     }
 }
 
-h1, h2,  h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     -webkit-font-smoothing: antialiased;
     a {
         color: inherit;
         border: none;
+    }
+}
+
+@each $size, $headers in $header-weights {
+    @include breakpoint($size) {
+        @each $header, $weight in $headers {
+            #{$header} {
+                font-weight: $weight;
+            }
+        }
     }
 }
 
@@ -39,10 +68,7 @@ ul.inline {
     border-radius: $global-radius;
     margin: .2rem;
     &.burger {
-        @include css-button-menu(
-            $css-button-menu-colour: map-get($foundation-palette, primary),
-            $css-button-menu-speed: 150ms
-        );
+        @include css-button-menu( $css-button-menu-colour: map-get($foundation-palette, primary), $css-button-menu-speed: 150ms);
         background: none;
     }
     &.envelope {
@@ -75,7 +101,7 @@ ul.inline {
             background-color: $wordpress;
         }
     }
-    @include breakpoint(medium only){
+    @include breakpoint(medium only) {
         width: 1.5rem;
         height: 1.5rem;
     }
@@ -98,6 +124,7 @@ ul.inline {
     font-weight: $global-weight-bold;
     margin: 0;
 }
+
 .page-subtitle {
     font-size: .75rem;
     margin: 0;

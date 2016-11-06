@@ -71,6 +71,17 @@ $print-transparent-backgrounds: true;
 
 @include add-foundation-colors;
 
+$body-sizes: (
+  small: 100%,
+  xlarge: 110%
+);
+
+$body-weights: (
+  small: 300,
+  xlarge: 400
+);
+
+
 // 2. Breakpoints
 // --------------
 
@@ -106,29 +117,58 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-bold;
+$header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+
 $header-sizes: (
   small: (
-    'h1': 16,
-    'h2': 16,
-    'h3': 16,
-    'h4': 16,
+    'h1': 20,
+    'h2': 19,
+    'h3': 18,
+    'h4': 17,
     'h5': 16,
     'h6': 16,
   ),
   medium: (
-    'h1': 16,
-    'h2': 16,
-    'h3': 16,
-    'h4': 16,
+    'h1': 24,
+    'h2': 22,
+    'h3': 20,
+    'h4': 18,
     'h5': 16,
     'h6': 16,
-  ),
+  )
 );
+
+$header-weights: (
+  small: (
+    'h1': 300,
+    'h2': 300,
+    'h3': 300,
+    'h4': 300,
+    'h5': 300,
+    'h6': 300
+  ),
+  smartphone_wide: (
+    'h1': 400,
+    'h2': 400,
+    'h3': 400,
+    'h4': 400,
+    'h5': 400,
+    'h6': 400
+  ),
+  medium: (
+    'h1': 500,
+    'h2': 500,
+    'h3': 500,
+    'h4': 500,
+    'h5': 500,
+    'h6': 500,
+  )
+);
+
 $header-color: inherit;
-$header-lineheight: 1.4;
+$header-lineheight: 1.25;
 $header-margin-bottom: 0;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: .75rem;
