@@ -6,6 +6,9 @@
         .post {
             margin: 0 0 2rem;
             border-bottom: $hr-border;
+            &:last-child {
+                border-bottom: none;
+            }
             > * {
                 margin-left: $outer-gutter-x;
                 margin-right: $outer-gutter-x;

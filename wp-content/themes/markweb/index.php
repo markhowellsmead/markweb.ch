@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mark Howells-Mead</title>
-    <link rel="stylesheet" href="Resources/Public/Css/css-reset.css">
-    <link rel="stylesheet" href="Resources/Public/Css/style.css">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/css-reset.css">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css">
 
-    <link rel="stylesheet" href="Resources/Public/Css/list.css">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/list.css">
 
 
-    <script src="Resources/Public/JavaScript/jquery.min.js"></script>
+    <script src="/wp-content/themes/markweb/Resources/Public/JavaScript/jquery.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -67,7 +67,6 @@
                 </footer>
             </article>
 
-
             <article class="post">
                 <header class="post-header">
                     <h2 class="post-title">
@@ -83,8 +82,6 @@
                 </footer>
             </article>
 
-
-
             <article class="post">
                 <header class="post-header">
                     <h2 class="post-title">
@@ -99,7 +96,6 @@
                     <p><a class="small button" rel="bookmark" href="https://permanenttourist.ch/2016/11/new-slack-channel-opened-for-wordpress-switzerland/" target="_blank">Read more</a></p>
                 </footer>
             </article>
-
 
             <article class="post">
                 <header class="post-header">
@@ -143,7 +139,7 @@ $.cachedScript = function( url, options ) {
   return jQuery.ajax( options );
 };
 
-$.cachedScript( 'Resources/Public/JavaScript/ui.min.js' );
+$.cachedScript( '/wp-content/themes/markweb/Resources/Public/JavaScript/ui.min.js' );
 
 </script>
 </body>
