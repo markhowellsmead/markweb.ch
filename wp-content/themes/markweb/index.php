@@ -53,145 +53,66 @@
             <article class="post">
                 <header class="post-header">
                     <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
+                        <a rel="bookmark" href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Modular functionality – organizing your code to make WordPress development easier</a>
+                    </h2>
+                    <time class="post-date" datetime="2016-11-18T16:00">18<sup>th</sup> November 2016</time>
                 </header>
-                <div class="excerpt wider">
-                    <img src="https://permanenttourist.ch/wp-content/uploads/2016/10/20161003_DSCF8913-1600x1067.jpg" />
-                </div>
                 <div class="excerpt">
-                    <p>An analysis of the visitor statistics during a recent web project showed that a large number of visitors were visiting the site using medium-small devices with 1024px x 768px screens. This corresponds to an iPad held in horizontal format.</p>
-                    <p>But further research into the statistics showed that a large proportion of the visitors with this screen size were using Google’s Chrome web browser in the Windows 7 operating system. That corresponds to a small notebook-type laptop.</p>
+                    <p>Join me at WordCamp Geneva, where I'll be presenting to a conference for the first time!</p>
+                    <p>Touching on front end techniques most commonly known from programmers like Brad Frost, I’ll explain how to plan a development project for both front end and backend environments in an overview, using a recent real-world example of developing for both blogs and non-blog-type WordPress multisite installation.</p>
+                    <p>My talk will provide a summarized insight into maintaining individual features through the use of your own Plugins, why it’s important to decide whether to add features to a Theme or via a Plugin, and the flexibility and organisation which modular coding brings.</p>
+                </div>
+                <footer class="post-footer">
+                    <p><a class="small button" rel="bookmark" href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Find out more</a></p>
+                </footer>
+            </article>
+
+
+            <article class="post">
+                <header class="post-header">
+                    <h2 class="post-title">
+                        <a rel="bookmark" href="https://permanenttourist.ch/2016/11/tailoring-your-web-design-process-to-site-visitors-needs/" target="_blank">Tailoring your web design process to site visitors' needs</a>
+                    </h2>
+                    <time class="post-date" datetime="2016-11-03T12:00">3<sup>rd</sup> November 2016</time>
+                </header>
+                <div class="excerpt">
                     <p>For work projects, designs are usually planned for common device sizes: smartphone, tablet, desktop and occasionally laptop. But in this project, we could see that it was necessary to specifically target a specific medium-small resolution, as that would be the version seen by the most users.</p>
                 </div>
                 <footer class="post-footer">
-                    <p><a class="button" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read more</a></p>
+                    <p><a class="small button" rel="bookmark" href="https://permanenttourist.ch/2016/11/tailoring-your-web-design-process-to-site-visitors-needs/" target="_blank">Read more</a></p>
                 </footer>
             </article>
+
+
 
             <article class="post">
                 <header class="post-header">
                     <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
+                        <a rel="bookmark" href="https://permanenttourist.ch/2016/11/new-slack-channel-opened-for-wordpress-switzerland/">New Slack channel opened for WordPress Switzerland</a>
+                    </h2>
+                    <time class="post-date" datetime="2016-11-01T12:00">1<sup>st</sup> November 2016</time>
                 </header>
                 <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
+                    <p>Providing WordPress developers and designers in Switzerland with an online place to hang out and exchange tips and ideas.</p>
                 </div>
                 <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
+                    <p><a class="small button" rel="bookmark" href="https://permanenttourist.ch/2016/11/new-slack-channel-opened-for-wordpress-switzerland/" target="_blank">Read more</a></p>
                 </footer>
             </article>
+
 
             <article class="post">
                 <header class="post-header">
                     <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
+                        <a rel="bookmark" href="http://slides.com/markweb/responsive-design-de/" target="_blank">Responsive Design - Worauf kommt es an?</a>
+                    </h2>
+                    <time class="post-date" datetime="2016-10-27T17:30">27<sup>th</sup> October 2016</time>
                 </header>
                 <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
+                    <p>Slides (in German) from a presentation I made to <a href="https://wpbern.ch/" target="_blank">WordPress Bern</a> on the subject of Responsive Design.</p>
                 </div>
                 <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">The view around the corner at Susten Pass</a></h2>
-                        <time class="post-date" datetime="2001-05-15T19:00">23<sup>rd</sup> October 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Finding a magnificent view of a scene I know well, by going up a little road and turning a corner.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
+                    <p><a class="small button" rel="bookmark" href="http://slides.com/markweb/responsive-design-de/" target="_blank">View presentation</a></p>
                 </footer>
             </article>
 
@@ -199,24 +120,8 @@
 
     </main>
 
-    <aside class="mod aside">
-        <nav class="nav aside">
-        <ul>
-            <li class="menu-item">
-                <a href="#">Menu entry 1</a>
-            </li>
-            <li class="menu-item">
-                <a href="#">Menu entry 2</a>
-            </li>
-            <li class="menu-item">
-                <a href="#">Menu entry 3</a>
-            </li>
-            <li class="menu-item">
-                <a href="#">Menu entry 4</a>
-            </li>
-        </ul>
-    </nav>
-    </aside>
+    <aside class="mod aside"></aside>
+
 </section>
 
 <footer class="mod page-footer">No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
