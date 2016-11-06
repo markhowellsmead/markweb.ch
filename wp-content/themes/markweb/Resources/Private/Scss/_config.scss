@@ -51,8 +51,6 @@ $body-colour: $black80;
 $title-colour: $black100;
 $title-weight: 300;
 
-$link-underline: lighten(desaturate($anchor-color, 50%), 50%);
-
 @mixin flex-centered() {
     display: flex;
     flex-wrap: wrap;

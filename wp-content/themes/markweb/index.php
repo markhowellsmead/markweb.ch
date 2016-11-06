@@ -65,7 +65,7 @@
                     <p>For work projects, designs are usually planned for common device sizes: smartphone, tablet, desktop and occasionally laptop. But in this project, we could see that it was necessary to specifically target a specific medium-small resolution, as that would be the version seen by the most users.</p>
                 </div>
                 <footer class="post-footer">
-                    <p><a href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read this post »</a></p>
+                    <p><a class="button" href="https://permanenttourist.ch/2016/10/the-view-around-the-corner-at-susten-pass/">Read more</a></p>
                 </footer>
             </article>
 

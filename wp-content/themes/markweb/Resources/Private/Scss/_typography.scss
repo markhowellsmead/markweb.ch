@@ -19,7 +19,10 @@ body {
 }
 
 a {
-    border-bottom: 1px solid $link-underline;
+    border-bottom: 1px solid rgba($anchor-color, .2);
+    &:hover {
+        border-color: rgba($anchor-color, .5);
+    }
     &.button {
         border: none;
     }
@@ -68,7 +71,10 @@ ul.inline {
     border-radius: $global-radius;
     margin: .2rem;
     &.burger {
-        @include css-button-menu( $css-button-menu-colour: map-get($foundation-palette, primary), $css-button-menu-speed: 150ms);
+        @include css-button-menu(
+            $css-button-menu-colour: $white,
+            $css-button-menu-speed: 150ms
+        );
         background: none;
     }
     &.envelope {
@@ -113,6 +119,10 @@ ul.inline {
 
 .mod.page-footer {
     font-size: .75rem;
+}
+
+.mod.page-header {
+    color: $white;
 }
 
 .profile-content {
