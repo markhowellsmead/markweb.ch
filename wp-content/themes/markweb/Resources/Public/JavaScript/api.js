@@ -3,12 +3,6 @@
     var jsonAPI = 'https://permanenttourist.ch/wp-json/wp/v2/posts';
     var page_overlay;
 
-    function handleOnlineStatus() {
-        updateOnlineStatus();
-        window.addEventListener('online', updateOnlineStatus);
-        window.addEventListener('offline', updateOnlineStatus);
-    }
-
     function loadScript(url, callback) {
         var script = document.createElement("script");
         script.type = "text/javascript";
@@ -44,6 +38,12 @@
                 document.body.classList.remove('online');
             }
         }
+    }
+
+    function handleOnlineStatus() {
+        updateOnlineStatus();
+        window.addEventListener('online', updateOnlineStatus);
+        window.addEventListener('offline', updateOnlineStatus);
     }
 
     function renderData(data, key) {
@@ -103,7 +103,26 @@
         return _holder;
     }
 
+    function loadContent(url, target){
+        $.ajax({
+            url: url,
+            type: 'jsonp',
+            method: 'get',
+            success: function(data) {
+                console.log(data);
+                target.html(data[0].excerpt.rendered);
+            }
+        });
+    }
+
     handleOnlineStatus();
+
+    // if (isonline) {
+    //     $('[data-apiload]').each(function(){
+    //         loadContent($(this).data('apiload'), $(this));
+    //     });
+    // }
+
 
     // if (isonline) {
     //     loadScript("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", function() {

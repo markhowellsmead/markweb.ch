@@ -17,7 +17,7 @@
      * it was being tested. It is currently not in use.
      */
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/serviceworker.min.js?<?=$version?>', {
+      navigator.serviceWorker.register('/serviceworker.min.js', {
         scope: '/'
       }).then(function(registration) {
         registration.unregister().then(function(boolean) {
@@ -41,14 +41,11 @@
     <link rel="icon" type="image/png" href="/Resources/Public/Icons/favicon-16x16.png?<?=$version?>" sizes="16x16">
     <link rel="manifest" href="/Resources/Public/Icons/manifest.json">
     <link rel="mask-icon" href="/Resources/Public/Icons/safari-pinned-tab.svg?<?=$version?>" color="#444444">
-    <link rel="stylesheet" href="/Resources/Public/Css/css-reset.css?<?=$version?>" />
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/css-reset.css">
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css">
 
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/list.css">
 
-
-    <script src="/wp-content/themes/markweb/Resources/Public/JavaScript/jquery.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -67,6 +64,7 @@
         </div>
 
         <a class="is-icon burger show-for-small-only" data-toggle=".nav.main" data-htmlclass="burger-open"><span>Social media</span></a>
+
     </header>
 
     <nav class="mod nav main hide-for-small-only" data-toggleclass="hide-for-small-only">
@@ -83,6 +81,9 @@
 
 
 <section class="mod page-content">
+
+    <section class="mode apiload" data-apiload="https://permanenttourist.ch/wp-json/wp/v2/pages?filter[name]=about"></section>
+
     <main class="mod main list">
 
         <div class="posts">
@@ -162,21 +163,46 @@
 </div>
 
 <script>
-$.cachedScript = function( url, options ) {
 
-  // Allow user to set any option except for dataType, cache, and url
-  options = $.extend( options || {}, {
-    dataType: "script",
-    cache: true,
-    url: url
-  });
+(function() {
+    // Load the script
+    var script = document.createElement("SCRIPT");
+    script.src = '/wp-content/themes/markweb/Resources/Public/JavaScript/jquery.min.js';
+    script.type = 'text/javascript';
+    document.getElementsByTagName("head")[0].appendChild(script);
 
-  // Use $.ajax() since it is more flexible than $.getScript
-  // Return the jqXHR object so we can chain callbacks
-  return jQuery.ajax( options );
-};
+    // Poll for jQuery to come into existance
+    var checkReady = function(callback) {
+        if (window.jQuery) {
+            callback(jQuery);
+        }
+        else {
+            window.setTimeout(function() { checkReady(callback); }, 100);
+        }
+    };
 
-$.cachedScript( '/wp-content/themes/markweb/Resources/Public/JavaScript/ui.min.js' );
+    // Start polling...
+    checkReady(function($) {
+        $.cachedScript = function( url, options ) {
+
+          // Allow user to set any option except for dataType, cache, and url
+          options = $.extend( options || {}, {
+            dataType: "script",
+            cache: true,
+            url: url
+          });
+
+          // Use $.ajax() since it is more flexible than $.getScript
+          // Return the jqXHR object so we can chain callbacks
+          return jQuery.ajax( options );
+        };
+
+        $.cachedScript( '/wp-content/themes/markweb/Resources/Public/JavaScript/ui.min.js' );
+        //$.cachedScript( '/wp-content/themes/markweb/Resources/Public/JavaScript/api.min.js' ); // Not implemented yet
+
+    });
+})();
+
 
 </script>
 </body>
