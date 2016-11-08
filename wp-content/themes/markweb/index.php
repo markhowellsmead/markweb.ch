@@ -97,7 +97,7 @@ $version = '0.1.1';
                     <h2 class="post-title">
                         <a rel="bookmark" href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Modular functionality – organizing your code to make WordPress development easier</a>
                     </h2>
-                    <time class="post-date" datetime="2016-11-18T16:00">18<sup>th</sup> November 2016</time>
+                    <time class="post-date" datetime="2016-11-18T16:00"><em class="post-upcoming">Soon:</em> 18<sup>th</sup> November 2016</time>
                 </header>
                 <div class="excerpt">
                     <p>Join me at WordCamp Geneva, where I'll be presenting to a conference for the first time!</p>
