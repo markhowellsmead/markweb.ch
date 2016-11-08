@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+
+$version = '0.1.0';
+
+
+
+?><!DOCTYPE html>
 <html class="no-js">
 
 <!--
@@ -41,10 +47,10 @@
     <link rel="icon" type="image/png" href="/Resources/Public/Icons/favicon-16x16.png?<?=$version?>" sizes="16x16">
     <link rel="manifest" href="/Resources/Public/Icons/manifest.json">
     <link rel="mask-icon" href="/Resources/Public/Icons/safari-pinned-tab.svg?<?=$version?>" color="#444444">
-    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/css-reset.css">
-    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/css-reset.css?<?=$version?>">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css?<?=$version?>">
 
-    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/list.css">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/list.css?<?=$version?>">
 
 </head>
 <body>
@@ -81,8 +87,6 @@
 
 
 <section class="mod page-content">
-
-    <section class="mode apiload" data-apiload="https://permanenttourist.ch/wp-json/wp/v2/pages?filter[name]=about"></section>
 
     <main class="mod main list">
 
