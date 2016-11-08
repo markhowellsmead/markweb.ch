@@ -72,8 +72,7 @@ $print-transparent-backgrounds: true;
 @include add-foundation-colors;
 
 $body-sizes: (
-  small: 100%,
-  xlarge: 110%
+  small: 100%
 );
 
 $body-weights: (
@@ -94,6 +93,7 @@ $breakpoints: (
   xlarge: 1280px,
   xxlarge: 1440px,
   xxxlarge: 1600px,
+  xxxxlarge: 2560px,
 );
 
 $breakpoint-heights: (

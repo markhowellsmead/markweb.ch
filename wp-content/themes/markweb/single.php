@@ -50,7 +50,7 @@ $version = '0.1.0';
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/css-reset.css?<?=$version?>">
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css?<?=$version?>">
 
-    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/list.css?<?=$version?>">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/single.css?<?=$version?>">
 
 </head>
 <body>
@@ -73,7 +73,7 @@ $version = '0.1.0';
 
     </header>
 
-    <nav class="mod nav social hide-for-small-only" data-toggleclass="hide-for-small-only">
+    <nav class="mod nav main hide-for-small-only" data-toggleclass="hide-for-small-only">
         <ul class="inline">
             <li class="menu-item"><a href="mailto:hi@markweb.ch" class="is-icon envelope">Get in touch</a></li>
             <li class="menu-item"><a href="https://profiles.wordpress.org/markhowellsmead" class="is-icon wordpress">WordPress</a></li>
@@ -88,7 +88,7 @@ $version = '0.1.0';
 
 <section class="mod page-content">
 
-    <main class="mod main list">
+    <main class="mod main single">
 
         <div class="posts">
 
@@ -99,58 +99,19 @@ $version = '0.1.0';
                     </h2>
                     <time class="post-date" datetime="2016-11-18T16:00">18<sup>th</sup> November 2016</time>
                 </header>
-                <div class="excerpt">
-                    <p>Join me at WordCamp Geneva, where I'll be presenting to a conference for the first time!</p>
-                    <p>Touching on front end techniques most commonly known from programmers like Brad Frost, I’ll explain how to plan a development project for both front end and backend environments in an overview, using a recent real-world example of developing for both blogs and non-blog-type WordPress multisite installation.</p>
-                    <p>My talk will provide a summarized insight into maintaining individual features through the use of your own Plugins, why it’s important to decide whether to add features to a Theme or via a Plugin, and the flexibility and organisation which modular coding brings.</p>
+                <div id="attachment_21410" class="wp-caption alignnone wider"><img class="size-medium wp-image-21410" src="http://permanenttourist.ch/wp-content/uploads/2016/11/premierinnsouthwark1-720x479.jpg" alt="Standard family room" width="720" height="479" srcset="https://permanenttourist.ch/wp-content/uploads/2016/11/premierinnsouthwark1-720x479.jpg 720w, https://permanenttourist.ch/wp-content/uploads/2016/11/premierinnsouthwark1.jpg 1024w, https://permanenttourist.ch/wp-content/uploads/2016/11/premierinnsouthwark1-600x399.jpg 600w" sizes="(max-width: 720px) 100vw, 720px"><p class="wp-caption-text">Standard family room</p></div>
+                <div class="content">
+                    <p>An analysis of the visitor statistics during a recent web project showed that a large number of visitors were visiting the site using medium-small devices with 1024px x 768px screens. This corresponds to an iPad held in horizontal format.</p>
+                    <p>But further research into the statistics showed that a large proportion of the visitors with this screen size were using Google’s Chrome web browser in the Windows 7 operating system. That corresponds to a small notebook-type laptop.</p>
+                    <p>For work projects, designs are usually planned for common device sizes: smartphone, tablet, desktop and occasionally laptop. But in this project, we could see that it was necessary to specifically target a specific medium-small resolution, as that would be the version seen by the most users.</p>
+                    <div id="attachment_21410" class="wp-caption alignnone"><img class="size-medium wp-image-21410" src="http://permanenttourist.ch/wp-content/uploads/2016/11/premierinnsouthwark1-720x479.jpg" alt="Standard family room" width="720" height="479" srcset="https://permanenttourist.ch/wp-content/uploads/2016/11/premierinnsouthwark1-720x479.jpg 720w, https://permanenttourist.ch/wp-content/uploads/2016/11/premierinnsouthwark1.jpg 1024w, https://permanenttourist.ch/wp-content/uploads/2016/11/premierinnsouthwark1-600x399.jpg 600w" sizes="(max-width: 720px) 100vw, 720px"><p class="wp-caption-text">Standard family room</p></div>
+                    <p>Was the header area compact enough to reduce scrolling as much as possible? Were the icons large enough and the interactive elements planned ideally for use at this size? Could we target the site at this resolution for touch screens? (No. An interface has to work with any input device – touch interface or mouse – regardless of the screen size.)</p>
+                    <p>It’s important to talk to clients about their intended audience right from the start of the planning process. During the kick-off meeting, before opening Sketch to start working on visual design, find out what the user base is like for an existing site which you’re redesigning. Whether Google Analytics, Piwiks, or another reporting system, take a look at the visitor counts and details from the last 12 months. Is there a particular trend amongst them?</p>
+                    <p>This doesn’t mean that you have to dismiss the needs of other visitors, of course. Just start with the needs of the majority, then work on alternatives for other visitors with larger or smaller devices. Tailor the design for each expected target audience with their needs and interactive methods in mind.</p>
+                    <p>Did you know that <a href="#">52% of the internet-browsing public</a> uses mobile devices these days? If you’re still expecting to design projects with the desktop user in mind, then you need to start revising your planning and design processes. By doing so, you’ll meet the needs of the site visitors more accurately, whilst allowing the developers to build your projects more quickly and more efficiently.</p>
                 </div>
                 <footer class="post-footer">
                     <p><a class="small button" rel="bookmark" href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Find out more</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/11/tailoring-your-web-design-process-to-site-visitors-needs/" target="_blank">Tailoring your web design process to site visitors' needs</a>
-                    </h2>
-                    <time class="post-date" datetime="2016-11-03T12:00">3<sup>rd</sup> November 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>For work projects, designs are usually planned for common device sizes: smartphone, tablet, desktop and occasionally laptop. But in this project, we could see that it was necessary to specifically target a specific medium-small resolution, as that would be the version seen by the most users.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a class="small button" rel="bookmark" href="https://permanenttourist.ch/2016/11/tailoring-your-web-design-process-to-site-visitors-needs/" target="_blank">Read more</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="https://permanenttourist.ch/2016/11/new-slack-channel-opened-for-wordpress-switzerland/">New Slack channel opened for WordPress Switzerland</a>
-                    </h2>
-                    <time class="post-date" datetime="2016-11-01T12:00">1<sup>st</sup> November 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Providing WordPress developers and designers in Switzerland with an online place to hang out and exchange tips and ideas.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a class="small button" rel="bookmark" href="https://permanenttourist.ch/2016/11/new-slack-channel-opened-for-wordpress-switzerland/" target="_blank">Read more</a></p>
-                </footer>
-            </article>
-
-            <article class="post">
-                <header class="post-header">
-                    <h2 class="post-title">
-                        <a rel="bookmark" href="http://slides.com/markweb/responsive-design-de/" target="_blank">Responsive Design - Worauf kommt es an?</a>
-                    </h2>
-                    <time class="post-date" datetime="2016-10-27T17:30">27<sup>th</sup> October 2016</time>
-                </header>
-                <div class="excerpt">
-                    <p>Slides (in German) from a presentation I made to <a href="https://wpbern.ch/" target="_blank">WordPress Bern</a> on the subject of Responsive Design.</p>
-                </div>
-                <footer class="post-footer">
-                    <p><a class="small button" rel="bookmark" href="http://slides.com/markweb/responsive-design-de/" target="_blank">View presentation</a></p>
                 </footer>
             </article>
 
@@ -161,6 +122,8 @@ $version = '0.1.0';
     <aside class="mod aside"></aside>
 
 </section>
+
+<footer class="mod page-footer">No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
 
 </div>
 

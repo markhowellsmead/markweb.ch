@@ -3420,32 +3420,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/Resources\/Private\/Scss\/comingsoon.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/Resources\/Public\/Css\/comingsoon.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/Resources\/Private\/Scss\/list.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/Resources\/Public\/Css\/list.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
 	"\/Resources\/Private\/Scss\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3458,16 +3432,6 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
-		},
-	"\/Resources\/Public\/Css\/comingsoon.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/Resources\/Public\/Css\/comingsoon-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/Resources\/Public\/Css\/css-reset.css": {
 		"aP": 0,
@@ -3486,6 +3450,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/Resources\/Public\/Css\/list-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/Resources\/Public\/Css\/single.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/Resources\/Public\/Css\/single-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -3864,6 +3838,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single.php",
+		"oF": 0
 		}
 	},
 "hooks": [
