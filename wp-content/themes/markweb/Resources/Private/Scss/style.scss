@@ -94,13 +94,22 @@ html.burger-open {
     padding: 2vh 0;
     @include breakpoint(medium){
         flex-basis: 75%;
+        width: 75%; // IE10
         padding: 0;
     }
     @include breakpoint(xlarge){
         flex-basis: 80%;
+        width: 80%; // IE10
+
+        // Nav/2. Optically aligns the content to the centre of the browser, not the centre of the white area.
+        transform: translateX(-10%);
     }
     @include breakpoint(xxxlarge){
         flex-basis: 85%;
+        width: 85%; // IE10
+
+        // Nav/2. Optically aligns the content to the centre of the browser, not the centre of the white area.
+        transform: translateX(-7.5%);
     }
 }
 
