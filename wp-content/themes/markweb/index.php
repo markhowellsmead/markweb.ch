@@ -1,6 +1,6 @@
 <?php
 
-$version = '0.1.0';
+$version = '0.1.1';
 
 
 
@@ -69,7 +69,7 @@ $version = '0.1.0';
             </header>
         </div>
 
-        <a class="is-icon burger show-for-small-only" data-toggle=".nav.main" data-htmlclass="burger-open"><span>Social media</span></a>
+        <a class="is-icon burger show-for-small-only" data-toggle=".nav.social" data-htmlclass="burger-open"><span>Social media</span></a>
 
     </header>
 
