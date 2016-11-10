@@ -191,60 +191,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/mhm-lazyloadvideo\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/mhm-lazyloadvideo\/.gitignore",
-		"oF": 0
-		},
-	"\/wp-content\/mhm-lazyloadvideo\/LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/mhm-lazyloadvideo\/LICENSE",
-		"oF": 0
-		},
-	"\/wp-content\/mhm-lazyloadvideo\/Plugin.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/mhm-lazyloadvideo\/Plugin.php",
-		"oF": 0
-		},
-	"\/wp-content\/mhm-lazyloadvideo\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/wp-content\/mhm-lazyloadvideo\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/wp-content\/mhm-lazyloadvideo\/Resources\/Public\/JavaScript\/mhmlazyloadvideo.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/wp-content\/mhm-lazyloadvideo\/Resources\/Public\/JavaScript\/mhmlazyloadvideo.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/wp-content\/mhm-lazyloadvideo\/Resources\/Public\/JavaScript\/mhmlazyloadvideo.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/wp-content\/mhm-lazyloadvideo\/Resources\/Public\/JavaScript\/mhmlazyloadvideo.min.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
