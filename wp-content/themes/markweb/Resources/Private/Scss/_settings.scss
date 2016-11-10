@@ -72,8 +72,7 @@ $print-transparent-backgrounds: true;
 @include add-foundation-colors;
 
 $body-sizes: (
-  small: 100%,
-  xlarge: 110%
+  small: 100%
 );
 
 $body-weights: (
@@ -94,6 +93,7 @@ $breakpoints: (
   xlarge: 1280px,
   xxlarge: 1440px,
   xxxlarge: 1600px,
+  xxxxlarge: 2560px,
 );
 
 $breakpoint-heights: (
@@ -142,20 +142,20 @@ $header-sizes: (
 
 $header-weights: (
   small: (
-    'h1': 300,
-    'h2': 300,
-    'h3': 300,
-    'h4': 300,
-    'h5': 300,
-    'h6': 300
+    'h1': 500,
+    'h2': 500,
+    'h3': 500,
+    'h4': 500,
+    'h5': 500,
+    'h6': 500
   ),
   smartphone_wide: (
-    'h1': 400,
-    'h2': 400,
-    'h3': 400,
-    'h4': 400,
-    'h5': 400,
-    'h6': 400
+    'h1': 500,
+    'h2': 500,
+    'h3': 500,
+    'h4': 500,
+    'h5': 500,
+    'h6': 500
   ),
   medium: (
     'h1': 500,

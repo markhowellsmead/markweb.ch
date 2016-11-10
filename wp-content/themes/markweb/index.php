@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+
+$version = '0.1.2';
+
+
+
+?><!DOCTYPE html>
 <html class="no-js">
 
 <!--
@@ -41,10 +47,12 @@
     <link rel="icon" type="image/png" href="/Resources/Public/Icons/favicon-16x16.png?<?=$version?>" sizes="16x16">
     <link rel="manifest" href="/Resources/Public/Icons/manifest.json">
     <link rel="mask-icon" href="/Resources/Public/Icons/safari-pinned-tab.svg?<?=$version?>" color="#444444">
-    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/css-reset.css">
-    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/css-reset.css?<?=$version?>">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css?<?=$version?>">
 
-    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/list.css">
+    <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/list.css?<?=$version?>">
+
+    <link rel="https://api.w.org/" href="/cms/wp-json/" />
 
 </head>
 <body>
@@ -63,11 +71,11 @@
             </header>
         </div>
 
-        <a class="is-icon burger show-for-small-only" data-toggle=".nav.main" data-htmlclass="burger-open"><span>Social media</span></a>
+        <a class="is-icon burger show-for-small-only" data-toggle=".nav.social" data-htmlclass="burger-open"><span>Social media</span></a>
 
     </header>
 
-    <nav class="mod nav main hide-for-small-only" data-toggleclass="hide-for-small-only">
+    <nav class="mod nav social hide-for-small-only" data-toggleclass="hide-for-small-only">
         <ul class="inline">
             <li class="menu-item"><a href="mailto:hi@markweb.ch" class="is-icon envelope">Get in touch</a></li>
             <li class="menu-item"><a href="https://profiles.wordpress.org/markhowellsmead" class="is-icon wordpress">WordPress</a></li>
@@ -82,8 +90,6 @@
 
 <section class="mod page-content">
 
-    <section class="mode apiload" data-apiload="https://permanenttourist.ch/wp-json/wp/v2/pages?filter[name]=about"></section>
-
     <main class="mod main list">
 
         <div class="posts">
@@ -93,10 +99,10 @@
                     <h2 class="post-title">
                         <a rel="bookmark" href="https://2016.geneva.wordcamp.org/sessions/#wcorg-session-639" target="_blank">Modular functionality – organizing your code to make WordPress development easier</a>
                     </h2>
-                    <time class="post-date" datetime="2016-11-18T16:00">18<sup>th</sup> November 2016</time>
+                    <time class="post-date" datetime="2016-11-18T16:00"><em class="post-upcoming">Soon:</em> 18<sup>th</sup> November 2016</time>
                 </header>
                 <div class="excerpt">
-                    <p>Join me at WordCamp Geneva, where I'll be presenting to a conference for the first time!</p>
+                    <p>Join me at <a href="https://2016.geneva.wordcamp.org/">WordCamp Geneva</a>, where I'll be presenting to a conference for the first time!</p>
                     <p>Touching on front end techniques most commonly known from programmers like Brad Frost, I’ll explain how to plan a development project for both front end and backend environments in an overview, using a recent real-world example of developing for both blogs and non-blog-type WordPress multisite installation.</p>
                     <p>My talk will provide a summarized insight into maintaining individual features through the use of your own Plugins, why it’s important to decide whether to add features to a Theme or via a Plugin, and the flexibility and organisation which modular coding brings.</p>
                 </div>
@@ -157,8 +163,6 @@
     <aside class="mod aside"></aside>
 
 </section>
-
-<footer class="mod page-footer">No copyright here. Steal and re-use anything at markweb.ch for <a href="https://github.com/mhmli/markweb.ch/blob/master/LICENSE">whatever you like</a>.</footer>
 
 </div>
 
