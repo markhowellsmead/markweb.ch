@@ -2,3 +2,4 @@
 gravatar.*.jpg
 .DS_Store
 bower_components
+/wp-content/themes/twentysixteen
