@@ -83,7 +83,7 @@
 		},
 	"\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
@@ -12072,12 +12072,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/wp-content\/themes\/markweb\/single.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/markweb\/single.php",
-		"oF": 0
 		},
 	"\/wp-content\/themes\/twentysixteen\/404.php": {
 		"ft": 8192,

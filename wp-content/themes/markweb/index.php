@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 $version = '0.1.2';
+=======
+$version = '0.1.1';
+>>>>>>> 0aa9dd46a829a479a2929662ef923360e9fb3be0
 
 
 
@@ -51,8 +55,11 @@ $version = '0.1.2';
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/style.css?<?=$version?>">
 
     <link rel="stylesheet" href="/wp-content/themes/markweb/Resources/Public/Css/list.css?<?=$version?>">
+<<<<<<< HEAD
 
     <link rel="https://api.w.org/" href="/cms/wp-json/" />
+=======
+>>>>>>> 0aa9dd46a829a479a2929662ef923360e9fb3be0
 
 </head>
 <body>
