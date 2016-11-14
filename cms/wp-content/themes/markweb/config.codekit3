@@ -15,6 +15,12 @@
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
+	"\/api.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/api.php",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -3838,12 +3844,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/single.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/single.php",
-		"oF": 0
 		}
 	},
 "hooks": [
