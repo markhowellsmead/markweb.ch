@@ -2,7 +2,7 @@
 
     var $link = $('link[rel="https://api.w.org/"]');
     var api_root = $link.attr('href');
-    
+
     var api_root = 'https://permanenttourist.ch/wp-json/';
 
     function storeData(data, key) {
@@ -40,7 +40,7 @@
     }
 
     function renderArticles(response) {
-        
+
         requirejs([
             '/cms/wp-content/plugins/mhm-rest-simple/Resources/Public/JavaScript/mustache.js',
             '/cms/wp-content/plugins/mhm-rest-simple/Resources/Public/JavaScript/dateformat.js'
@@ -48,12 +48,12 @@
 
             $.get('/cms/wp-content/plugins/mhm-rest-simple/Resources/Private/Templates/Article.html', function(template) {
 
-                $('[data-holder="articles"]').append('<article class="post"><header class="post-header"><h1>Posts from my main blog</h1></header>');
-                
+                $('[data-holder="articles"]').append('<article class="post size-full"><header class="post-header"><h1>Posts from my main blog</h1></header>');
+
                 $.each(response, function(){
-                    
+
                     var article = this;
-            
+
                     var data = {
                         id: article.id,
                         permalink: article.link,
@@ -62,15 +62,15 @@
                         excerpt: article.excerpt.rendered,
                         title: article.title.rendered
                     };
-            
-                    $('[data-holder="articles"]').append(Mustache.render(template, data)).delay(500).slideDown();
-            
+
+                    $('[data-holder="articles"]').append(Mustache.render(template, data)).delay(500).css('display', 'flex');
+
                 });
             });
         });
     }
-    
-    
+
+
     if (api_root) {
         getArticles();
     }

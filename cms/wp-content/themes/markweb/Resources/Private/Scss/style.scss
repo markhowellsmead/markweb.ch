@@ -88,22 +88,37 @@ html.burger-open {
         }
         &.api {
             display: none;
+            flex-wrap: wrap;
             padding-top: 2rem;
 
            @include breakpoint(xlarge){
-                display: flex;
-                flex-wrap: wrap;
-                .posts {
+                .post {
                     display: flex;
                     flex-direction: column;
                     flex-basis: 50%;
+                    align-items: flex-start;
                     padding-right: 1rem;
+                }
+                .size-full {
+                    flex-basis: 100%;
                 }
             }
 
             @include breakpoint(xxlarge){
-                .posts {
+                .post {
                     flex-basis: 1/3 * 100%;
+                }
+                .size-full {
+                    flex-basis: 100%;
+                }
+            }
+
+            @include breakpoint(xxxlarge){
+                .post {
+                    flex-basis: 1/4 * 100%;
+                }
+                .size-full {
+                    flex-basis: 100%;
                 }
             }
         }
@@ -112,6 +127,9 @@ html.burger-open {
 
     .post-footer {
         border-bottom: $hr-border;
+        @include breakpoint(xlarge){
+            border-bottom: none;
+        }
     }
     .post:last-child .post-footer {
         border-bottom: none;

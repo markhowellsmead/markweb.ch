@@ -1,6 +1,6 @@
 <?php
 
-$version = '0.1.9';
+$version = '0.1.10';
 
 ?><!DOCTYPE html>
 <html class="no-js">

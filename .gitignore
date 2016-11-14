@@ -2,8 +2,8 @@
 gravatar.*.jpg
 .DS_Store
 bower_components
-/wp-content/plugins/index.php
-/wp-content/plugins/mhm-catch-comment-spam
-/wp-content/plugins/jetpack
-/wp-content/plugins/rest-api
-/wp-content/themes/twentysixteen
+/cms/wp-content/plugins/index.php
+/cms/wp-content/plugins/mhm-catch-comment-spam
+/cms/wp-content/plugins/jetpack
+/cms/wp-content/plugins/rest-api
+/cms/wp-content/themes/twentysixteen
