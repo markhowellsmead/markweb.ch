@@ -3827,6 +3827,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/Resources\/Public\/JavaScript\/requirejs.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Resources\/Public\/JavaScript\/requirejs.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/Resources\/Public\/JavaScript\/ui.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3844,6 +3853,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single.php",
+		"oF": 0
 		}
 	},
 "hooks": [

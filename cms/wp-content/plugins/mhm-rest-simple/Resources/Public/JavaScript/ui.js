@@ -23,20 +23,26 @@
     }
 
     function getArticles() {
-        $.ajax({
-            url: api_root + 'wp/v2/posts',
-            method: 'get',
-/*
-            beforeSend: function(xhr) {
-                xhr.setRequestHeader('X-WP-Nonce', wpApiSettings.nonce);
-            },
-*/
-            data: {
-                'order': 'desc',
-                'orderby': 'date',
-                'categories': '319'
-            }
-        }).done(renderArticles);
+	    
+	    var data = localData('mhm-rest-simple/1.1.0');
+	    
+	    if(data){
+		    renderArticles(data);
+	    }else{
+	        $.ajax({
+	            url: api_root + 'wp/v2/posts',
+	            method: 'get',
+	            cache: true,
+	            data: {
+	                'order': 'desc',
+	                'orderby': 'date',
+	                'categories': '319'
+	            }
+	        }).done(function(response){
+		        storeData(response, 'mhm-rest-simple/1.1.0');
+		        renderArticles(response);
+	        });
+	    }
     }
 
     function renderArticles(response) {

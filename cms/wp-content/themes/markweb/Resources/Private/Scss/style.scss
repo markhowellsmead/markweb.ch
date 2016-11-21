@@ -253,7 +253,7 @@ html.burger-open {
         ul {
             .menu-item {
                 text-align: center;
-                flex-basis: 20%
+                flex-basis: 1/6 * 100%
             }
         }
         @include breakpoint(smartphone_wide){
