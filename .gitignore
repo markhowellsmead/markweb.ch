@@ -32,3 +32,6 @@ bower_components
 /cms/wp-signup.php
 /cms/wp-trackback.php
 /cms/xmlrpc.php
+/cms/wp-content/themes/wordpress_theme
+*.key
+*.crt
