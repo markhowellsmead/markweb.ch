@@ -23,12 +23,12 @@
     }
 
     function getArticles() {
-	    
-	    var data = localData('mhm-rest-simple/1.1.0');
-	    
-	    if(data){
-		    renderArticles(data);
-	    }else{
+
+	    //var data = localData('mhm-rest-simple/1.2.0');
+
+	    // if(data){
+		   //  renderArticles(data);
+	    // }else{
 	        $.ajax({
 	            url: api_root + 'wp/v2/posts',
 	            method: 'get',
@@ -39,10 +39,10 @@
 	                'categories': '319'
 	            }
 	        }).done(function(response){
-		        storeData(response, 'mhm-rest-simple/1.1.0');
+		        //storeData(response, 'mhm-rest-simple/1.2.0');
 		        renderArticles(response);
 	        });
-	    }
+	    // }
     }
 
     function renderArticles(response) {
@@ -52,9 +52,7 @@
             '/cms/wp-content/plugins/mhm-rest-simple/Resources/Public/JavaScript/dateformat.js'
         ], function(Mustache, dateFormat){
 
-            $.get('/cms/wp-content/plugins/mhm-rest-simple/Resources/Private/Templates/Article.html', function(template) {
-
-                $('[data-holder="articles"]').append('<article class="post size-full"><header class="post-header"><h1>Posts from my main blog</h1></header>');
+            $.get('/cms/wp-content/plugins/mhm-rest-simple/Resources/Private/Templates/Article.html?v0.0.17', function(template) {
 
                 $.each(response, function(){
 

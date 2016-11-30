@@ -4,7 +4,7 @@ Plugin Name: Simple article viewer
 Plugin URI: #
 Description: Uses the REST API to load articles from a WordPress installation.
 Author: Mark Howells-Mead
-Version: 1.1.0
+Version: 1.3.0
 Author URI: https://markweb.ch/
 Text Domain: mhm-rest-simple
 Domain Path: /Resources/Private/Language
