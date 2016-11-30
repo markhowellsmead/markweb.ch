@@ -1,0 +1,84 @@
+$white: #fefefe;
+
+$red100:    #EB0000;
+$red125:    #C60018;
+$red150:    #A20013;
+
+$black5:    #F6F6F6;
+$black10:   #E5E5E5;
+$black20:   #D2D2D2;
+$black30:   #BDBDBD;
+$black40:   #A8A8A8;
+$black50:   #808080;
+$black60:   #767676;
+$black70:   #686868;
+$black80:   #5A5A5A;
+$black90:   #444444;
+$black95:   #262626;
+$black100:  #1E1E1E;
+$black: $black100;
+
+$green100: #7c9600;
+$green90: #6f8700;
+$green80: #637800;
+$green70: #566900;
+$green60: #4a5a00;
+$green50: #3e4b00;
+$green40: #313c00;
+$green30: #252d00;
+$green20: #181e00;
+$green10: #0c0f00;
+
+$facebook: rgb(59, 89, 152);
+$slack: rgb(100,74,97);
+$twitter: #1da1f2;
+$wordpress: #0087be;
+
+$shadow-size: .2rem;
+$toolbar-height: 5rem;
+$outer-gutter-x: 1rem;
+
+$yellow: rgb(250, 176, 5);
+
+// Foundation
+
+@import 'settings';
+@import "../bower_components/foundation-sites/scss/foundation";
+
+$box-shadow1: 0 0 4px rgba($black100, .25);
+
+$constraint-width: 45rem;
+
+$body-colour: $black80;
+$title-colour: $black100;
+$title-weight: 300;
+
+@mixin flex-centered() {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@mixin icon() {
+    vertical-align: middle;
+    &:before {
+        font-family: dashicons;
+        font-weight: normal;
+        display: inline-block;
+        font-size: 24px;
+        content: '';
+        margin-right: .25rem;
+    }
+    &.button-facebook:before {
+        content: "\f304";
+    }
+    &.button-slack:before {
+        content: "\f307";
+    }
+    &.button-twitter:before {
+        content: "\f301";
+    }
+    &.button-wordpress:before {
+        content: "\f324";
+    }
+}

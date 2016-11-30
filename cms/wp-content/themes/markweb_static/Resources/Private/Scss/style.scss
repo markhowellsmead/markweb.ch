@@ -1,0 +1,272 @@
+@import '/Volumes/web/helpers/scss/flood';
+@import '/Volumes/web/helpers/scss/icon_burger';
+
+@import 'config';
+
+@include foundation-global-styles;
+@include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-callout;
+@include foundation-menu;
+@include foundation-reveal;
+@include foundation-table;
+@include foundation-visibility-classes;
+
+@import 'typography';
+
+html,
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    @include flex-centered;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html.burger-open {
+    overflow: hidden;
+    body {
+        overflow: hidden;
+        &:before {
+            @include breakpoint(small only){
+                content: '';
+                display: block;
+                background: rgba($black100, .8);
+                @include flood(1);
+                position: fixed;
+            }
+        }
+    }
+}
+
+.container {
+    flex: 1;
+    @include flex-centered;
+    align-items: flex-start;
+    width: 100%;
+    @include breakpoint(lessthanmedium down){
+        padding: $toolbar-height 0 0;
+    }
+    @include breakpoint(medium){
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+}
+
+.mod.main {
+
+    .posts {
+        .post {
+            margin: 0 0 2rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            > * {
+                max-width: $constraint-width;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                @include breakpoint(large){
+                    margin-left: 4rem;
+                    margin-right: auto;
+                }
+            }
+        }
+        .sticky {
+            padding: 2rem 0 1rem;
+            background: rgba($green100, .1);
+            .post-footer {
+                border: none;
+            }
+            @include breakpoint(large){
+                .inner {
+                    margin-right: 4rem;
+                }
+            }
+        }
+        .wider {
+            margin: 0;
+        }
+        &.api {
+            display: none;
+            flex-wrap: wrap;
+            padding-top: 2rem;
+
+           @include breakpoint(xlarge){
+                .post {
+                    display: flex;
+                    flex-direction: column;
+                    flex-basis: 50%;
+                    align-items: flex-start;
+                    padding-right: 1rem;
+                }
+                .size-full {
+                    flex-basis: 100%;
+                }
+            }
+
+            @include breakpoint(xxlarge){
+                .post {
+                    flex-basis: 1/3 * 100%;
+                }
+                .size-full {
+                    flex-basis: 100%;
+                }
+            }
+
+            @include breakpoint(xxxlarge){
+                .post {
+                    flex-basis: 1/4 * 100%;
+                }
+                .size-full {
+                    flex-basis: 100%;
+                }
+            }
+        }
+
+   }
+
+    .post-footer {
+        border-bottom: $hr-border;
+        @include breakpoint(xlarge){
+            border-bottom: none;
+        }
+    }
+    .post:last-child .post-footer {
+        border-bottom: none;
+    }
+
+}
+
+.mod.page-content {
+    flex: 0 0 100%;
+    padding: 0 0 2vh;
+    @include breakpoint(medium){
+        flex-basis: 75%;
+        width: 75%; // IE10
+        padding: 0;
+    }
+    @include breakpoint(xlarge){
+        flex-basis: 80%;
+        width: 80%; // IE10
+    }
+    @include breakpoint(xxxlarge){
+        flex-basis: 85%;
+        width: 85%; // IE10
+    }
+}
+
+.mod.page-header {
+
+    background: linear-gradient($green100 calc(100% - 1rem), $green90 100%);
+
+    .profile-image {
+        width: 2rem;
+        height: 2rem;
+        margin: 0 2vw 0 0;
+        border-radius: 50%;
+        background-color: $green100;
+        box-shadow: $box-shadow1;
+        @media screen and (min-height: map-get($breakpoint-heights, smartphone_wide_height)){
+            width: 4rem;
+            height: 4rem;
+        }
+        @include breakpoint(medium){
+            width: 8rem;
+            height: 8rem;
+            margin: 0 0 1rem;
+        }
+    }
+
+    .profile-content {
+        @include flex-centered;
+        justify-content: space-between;
+    }
+
+    @include breakpoint(smartphone_wide){
+        @include flex-centered;
+        justify-content: space-between;
+    }
+
+    @include breakpoint(lessthanmedium down){
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 12;
+        min-height: $toolbar-height;
+    }
+
+    @include breakpoint(medium){
+        width: 25%;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        padding-right: 1rem;
+        background: linear-gradient($green100 50%, $green90);
+        box-shadow: inset -.25rem 0 .25rem 0 rgba($black100, .1);
+    }
+
+    @include breakpoint(xlarge){
+        width: 20%;
+    }
+
+    @include breakpoint(xxxlarge){
+        width: 15%;
+    }
+
+}
+
+.mod.page-toolbar {
+    @include flex-centered;
+    flex: 1;
+    justify-content: flex-start;
+    padding: .5rem $outer-gutter-x;
+    :last-child {
+        margin-left: auto;
+    }
+    @include breakpoint(medium){
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        padding: 8vh 0 1vh;
+    }
+}
+
+.mod.nav {
+    margin: 1rem 0;
+    &.social {
+        margin: 0;
+        @include flex-centered;
+        justify-content: center;
+        flex-basis: 100%;
+        padding: 1rem $outer-gutter-x;
+        ul {
+            .menu-item {
+                text-align: center;
+                flex-basis: 1/6 * 100%
+            }
+        }
+        @include breakpoint(smartphone_wide){
+            background: none;
+            flex: 0 0 50%;
+            justify-content: flex-end;
+        }
+        @include breakpoint(medium){
+            padding: 1rem 0;
+            margin-bottom: .75rem;
+            align-items: flex-end;
+        }
+        @include breakpoint(large){
+            margin-bottom: .8rem;
+        }
+    }
+}
